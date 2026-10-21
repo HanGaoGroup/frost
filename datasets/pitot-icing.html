@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Pitot-probe icing and protection · FROST</title>
+<meta name="description" content="Dynamic icing of Pitot probes, the airspeed sensors that iced shut during the UAV flight campaigns, with and without an electro-thermal/superhydrophobic protection strategy.">
+<meta property="og:title" content="Pitot-probe icing and protection · FROST">
+<meta property="og:description" content="Dynamic icing of Pitot probes, the airspeed sensors that iced shut during the UAV flight campaigns, with and without an electro-thermal/superhydrophobic protection strategy.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg viewBox='0 0 40 40' aria-hidden='true'%3E%3Cdefs%3E%3ClinearGradient id='lgf' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235b9dff'/%3E%3Cstop offset='.55' stop-color='%232b6fe3'/%3E%3Cstop offset='1' stop-color='%2300a6a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='url(%23lgf)'/%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='none' stroke='rgba(255,255,255,.35)' stroke-width='1'/%3E%3Cg stroke='%23fff' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round' fill='none'%3E%3Cpath d='M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5'/%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3Cg transform='rotate(60 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3Cg transform='rotate(120 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/frost.css">
+</head>
+<body data-dark-hero>
+<div class="banner"><span class="dot"></span><strong>Preview of the FROST portal.</strong> Records are in curation; the first public release is FROST v0.5. Until then, the team shares data on request.</div>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="../index.html" aria-label="FROST home"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgh)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">AI-ready aircraft icing data</span></span></a>
+    <nav class="nav" aria-label="Main"><a href="../index.html">Home</a><a href="../datasets.html" aria-current=page>Datasets</a><a href="../benchmarks.html">FROST-Bench</a><a href="../ai.html">AI &amp; Agents</a><a href="../software.html">Software</a><a href="../publications.html">Publications</a><a href="../team.html">Team</a><a href="../access.html">Access</a></nav>
+    <a class="btn btn-primary btn-sm header-cta" href="../access.html#request">Request access</a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<main>
+<section class="page-hero"><div class="bgimg" style="background-image:url(../assets/img/irt-facility.jpg)"></div>
+  <div class="container">
+    <nav class="crumbs"><a href="../datasets.html">Datasets</a> / <a href="../datasets.html?collection=tunnel">ISU-IRT tunnel archive</a></nav>
+    <span class="eyebrow">ISU-IRT tunnel archive</span>
+    <h1>Pitot-probe icing and protection</h1>
+    <p>Dynamic icing of Pitot probes, the airspeed sensors that iced shut during the UAV flight campaigns, with and without an electro-thermal/superhydrophobic protection strategy.</p>
+    <div class="detail-head"><span class="badge rel-v10">FROST v1.0</span><span class="badge org-measured">Measured</span><span class="badge" style="background:rgba(255,255,255,.1);color:#fff"><span class="status-dot"></span>&nbsp;In curation</span></div>
+  </div>
+</section>
+<section class="section" style="padding-top:56px">
+  <div class="container detail">
+    <div class="prose">
+      <div class="no-gallery"><div><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="m21 16-5-5-9 9"/></svg><b style="display:block;color:#fff;font-family:var(--font-display);font-size:18px">Figures will appear at release</b><span style="font-size:14px">See the source publications below for figures from this dataset.</span></div></div>
+      <h2 style="margin-top:40px">What this dataset contains</h2>
+      <p>Dynamic icing of Pitot probes, the airspeed sensors that iced shut during the UAV flight campaigns, with and without an electro-thermal/superhydrophobic protection strategy.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:6px"><span class="chip"><i style="background:#2B6FE3"></i>High-speed video</span><span class="chip"><i style="background:#2B6FE3"></i>3D ice scan</span><span class="chip">rime</span><span class="chip">glaze</span></div>
+      
+      <h2>Source publications</h2>
+      <ul class="srcs"><li class="src"><div class="ti">Experimental Study of Dynamic Icing Process on a Pitot Probe Model</div><div class="au">H. Hu, F. Al-Masri, L. Tian, H. Hu · <i>Journal of Thermophysics and Heat Transfer</i>, 2023</div>
+  <div class="ac"><a href="https://doi.org/10.2514/1.T6782" target="_blank" rel="noopener">doi:10.2514/1.T6782 <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg></a><button class="copy" data-copy="H. Hu, F. Al-Masri, L. Tian, H. Hu (2023). Experimental Study of Dynamic Icing Process on a Pitot Probe Model. Journal of Thermophysics and Heat Transfer. https://doi.org/10.2514/1.T6782">Copy citation</button></div></li><li class="src"><div class="ti">An Experimental Study on Pitot Probe Icing Protection with an Electro-Thermal/Superhydrophobic Hybrid Strategy</div><div class="au">H. Hu, F. Al-Masri, H. Hu · <i>Aerospace</i>, 2025</div>
+  <div class="ac"><a href="https://doi.org/10.3390/aerospace12100862" target="_blank" rel="noopener">doi:10.3390/aerospace12100862 <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M19 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h5"/></svg></a><button class="copy" data-copy="H. Hu, F. Al-Masri, H. Hu (2025). An Experimental Study on Pitot Probe Icing Protection with an Electro-Thermal/Superhydrophobic Hybrid Strategy. Aerospace. https://doi.org/10.3390/aerospace12100862">Copy citation</button></div></li></ul>
+      <h2>How it will appear in FROST</h2>
+      <p>Every FROST record carries its conditions, instruments, uncertainty, and provenance. This is the planned record header for this dataset.</p>
+      <div class="planned-record"><span class="k">id        </span> frost://tunnel/pitot-icing
+<span class="k">origin    </span> measured
+<span class="k">formats   </span> MP4/TIFF, STL/PLY
+<span class="k">metadata  </span> Croissant + icing vocabulary: (V∞, T∞, LWC, MVD, t_ice, α, Ω, Re)
+<span class="k">integrity </span> SHA-256 per file · W3C PROV lineage · curator-signed
+<span class="k">access    </span> Open tier expected (CC-BY-4.0), subject to export-control screening
+<span class="k">release   </span> FROST v1.0 · DataCite DOI minted at release</div>
+    </div>
+    <aside class="side">
+      <div class="box"><h3><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/></svg> At a glance</h3><dl class="facts"><div><dt>Collection</dt><dd>ISU-IRT tunnel archive</dd></div><div><dt>Holder</dt><dd>Hu</dd></div><div><dt>Geometry</dt><dd>Pitot probe</dd></div><div><dt>Regime</dt><dd>rime, glaze</dd></div><div><dt>Modalities</dt><dd>High-speed video, 3D ice scan</dd></div><div><dt>Protection tested</dt><dd>Electro-thermal / superhydrophobic hybrid</dd></div></dl></div>
+      <div class="box status-box"><h3><span class="status-dot"></span> Status: in curation</h3><div class="in">
+        <p>Planned for <b>FROST v1.0</b>. Today: <b>On request</b>. Cite the source papers now; a dataset DOI is minted at release.</p>
+        <a class="btn btn-primary btn-sm" href="../access.html?coll=tunnel#request"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Request access</a></div></div>
+    </aside>
+  </div>
+</section>
+<section class="section section-ice section-tight"><div class="container"><h2 style="font-size:26px;margin-bottom:22px">Related records</h2><div class="related"><a class="ds" href="../datasets/s1223-uav-wing.html" data-item data-order="0" data-title="Rime and glaze ice on a high-lift UAV wing (S1223)"
+  data-collection="tunnel" data-origin="measured" data-release="v0.5" data-geometry="Airfoil &amp; wing"
+  data-modality="3D ice scan|Loads|Surface pressure|PIV|High-speed video" data-year="2026" data-text="rime and glaze ice on a high-lift uav wing (s1223) ice grown on an s1223 uav wing in the isu-irt, laser-scanned, 3d-printed, and re-tested for loads, surface pressure, and piv. two independent simulations of the same scanned shape complete the region piv cannot see. 3d ice scan loads surface pressure piv high-speed video airfoil &amp; wing rime glaze isu-irt tunnel archive hu, gao" style="--c:#2B6FE3;--ci:#1d4fb0">
+  <div class="im"><img src="../assets/img/t/scan-s1223.jpg" alt="3D-scanned ice on the S1223 UAV wing, suction and pressure sides" loading=lazy><div class="tl"><span class="badge rel-v05">FROST v0.5</span><span class="badge org-measured">Measured</span></div></div>
+  <div class="bar"></div>
+  <div class="bd"><span class="coll">ISU-IRT tunnel archive</span><h3>Rime and glaze ice on a high-lift UAV wing (S1223)</h3><p>Ice grown on an S1223 UAV wing in the ISU-IRT, laser-scanned, 3D-printed, and re-tested for loads, surface pressure, and PIV. Two independent simulations of the same scanned shape complete the region PIV cannot see.</p><div class="tags"><span class="chip">3D ice scan</span><span class="chip">Loads</span><span class="chip">Surface pressure</span></div></div>
+  <div class="ft"><span>Hu, Gao</span><span><span class="status-dot"></span>&nbsp; In curation</span></div>
+</a><a class="ds" href="../datasets/airfoil-highspeed.html" data-item data-order="0" data-title="Transient ice accretion over an airfoil: high-speed imaging"
+  data-collection="tunnel" data-origin="measured" data-release="v1.0" data-geometry="Airfoil &amp; wing"
+  data-modality="High-speed video" data-year="2016" data-text="transient ice accretion over an airfoil: high-speed imaging high-speed imaging that resolves how rime and glaze ice grow over an airfoil leading edge in the isu-irt, frame by frame. high-speed video airfoil &amp; wing rime glaze isu-irt tunnel archive hu" style="--c:#2B6FE3;--ci:#1d4fb0">
+  <div class="im"><img src="../assets/img/t/hs-airfoil.jpg" alt="High-speed imaging of ice growing on an airfoil leading edge" loading=lazy><div class="tl"><span class="badge rel-v10">FROST v1.0</span><span class="badge org-measured">Measured</span></div></div>
+  <div class="bar"></div>
+  <div class="bd"><span class="coll">ISU-IRT tunnel archive</span><h3>Transient ice accretion over an airfoil: high-speed imaging</h3><p>High-speed imaging that resolves how rime and glaze ice grow over an airfoil leading edge in the ISU-IRT, frame by frame.</p><div class="tags"><span class="chip">High-speed video</span></div></div>
+  <div class="ft"><span>Hu</span><span><span class="status-dot"></span>&nbsp; In curation</span></div>
+</a><a class="ds" href="../datasets/ice-shape-scans.html" data-item data-order="0" data-title="3D laser-scanned ice shapes"
+  data-collection="tunnel" data-origin="measured" data-release="v1.0" data-geometry="Airfoil &amp; wing"
+  data-modality="3D ice scan" data-year="2026" data-text="3d laser-scanned ice shapes laser scans of accreted ice on airfoils, wings, rotor blades, and fans, including time-resolved growth sequences: the training target for ice-shape generation. 3d ice scan airfoil &amp; wing rime mixed glaze isu-irt tunnel archive hu" style="--c:#2B6FE3;--ci:#1d4fb0">
+  <div class="im"><img src="../assets/img/t/scan-airfoil.jpg" alt="3D scans of ice at four liquid water contents" loading=lazy><div class="tl"><span class="badge rel-v10">FROST v1.0</span><span class="badge org-measured">Measured</span></div></div>
+  <div class="bar"></div>
+  <div class="bd"><span class="coll">ISU-IRT tunnel archive</span><h3>3D laser-scanned ice shapes</h3><p>Laser scans of accreted ice on airfoils, wings, rotor blades, and fans, including time-resolved growth sequences: the training target for ice-shape generation.</p><div class="tags"><span class="chip">3D ice scan</span></div></div>
+  <div class="ft"><span>Hu</span><span><span class="status-dot"></span>&nbsp; In curation</span></div>
+</a></div></div></section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot">
+      <div>
+        <a class="brand" href="../index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgf)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">Fused Repository of Observations, Simulations, and Tests</span></span></a>
+        <p style="margin-top:18px;max-width:380px">An AI-ready, governed community dataset of aircraft icing, built from two decades of icing-tunnel experiments and flight-test campaigns linked to validated simulation.</p>
+        <p style="margin:0">Iowa State University · Georgia Institute of Technology</p>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="../datasets.html">Datasets</a></li><li><a href="../record-s1223.html">Example record</a></li>
+        <li><a href="../benchmarks.html">FROST-Bench</a></li><li><a href="../ai.html">AI &amp; Agents</a></li></ul></div>
+      <div><h4>Project</h4><ul>
+        <li><a href="../team.html">Team</a></li><li><a href="../publications.html">Publications</a></li>
+        <li><a href="../software.html">Software</a></li><li><a href="../access.html">Access &amp; governance</a></li></ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="mailto:hgao1@iastate.edu">hgao1@iastate.edu</a></li>
+        <li><a href="../access.html#request">Request data access</a></li>
+        <li><a href="../access.html#contribute">Contribute data</a></li></ul></div>
+    </div>
+    <div class="fine"><span>Preview build · October 2026. Images are from the team's own archives and publications unless credited otherwise.</span><span>Data licenses: CC-BY-4.0 for Open-tier releases · code under OSI licenses</span></div>
+  </div>
+</footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="x" aria-label="Close"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><button class="prev" aria-label="Previous"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><button class="next" aria-label="Next"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+</div>
+<script src="../assets/js/frost.js"></script>
+</body>
+</html>

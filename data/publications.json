@@ -1,0 +1,2652 @@
+[
+ {
+  "key": "jain2027model",
+  "title": "A model for transport of soluble surfactants in two-phase flows",
+  "authors": "S.S. Jain",
+  "year": 2027,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2026.115384",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "samad2027dielectric",
+  "title": "Exploration of using dielectric barrier discharge plasma actuators for UAV propeller icing protection",
+  "authors": "A. Samad, A. Dhulipalla, K. Bowers, H. Sista, H. Hu",
+  "year": 2027,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2026.113921",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "bhattacharjee2026machine",
+  "title": "A Machine Learning Model for the Prediction of Sub-Grid Interfacial Area in Two-Phase Turbulent Flows",
+  "authors": "A. Bhattacharjee, L.H. Hatashita, S.S. Jain",
+  "year": 2026,
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-1731",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD",
+   "Generative AI & ML"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "zabaleta2026multi",
+  "title": "A Multi-Physics Simulation of Heat Transfer in Iced Airfoils under Realistic Icing Conditions",
+  "authors": "F. Zabaleta, B.J. Bornhoft, S.S. Jain, S. Bose, P. Moin",
+  "year": 2026,
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-0683",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "wang2026slippery",
+  "title": "A Novel Slippery Liquid-like Icephobic Surface Coating for Unmanned-Aerial-Vehicle Propeller Icing Protection",
+  "authors": "J. Wang, C. Valentin, K. Bowers, L. Hao, B. Fan, H. Hu",
+  "year": 2026,
+  "venue": "Coatings",
+  "doi": "10.3390/coatings16080973",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hatashita2026robust",
+  "title": "A Robust Seven-Equation Formulation for Compressible Two-Phase Flows for High-Speed Applications",
+  "authors": "L.H. Hatashita, T. Samanta, S.S. Jain",
+  "year": 2026,
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-0733",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "psenica2026modular",
+  "title": "A modular conjugate heat transfer optimization framework for thermal management of electric aircraft",
+  "authors": "C. Psenica, L. Fang, S. Zoppelt, M. Leader, P. He",
+  "year": 2026,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2026.128345",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "wang2026numerical",
+  "title": "A numerical study on wind-driven runback characteristics of a thin water film flow over a solid surface",
+  "authors": "J. Wang, P. He, H. Hu",
+  "year": 2026,
+  "venue": "Acta Mechanica Sinica",
+  "doi": "10.1007/s10409-025-25073-x",
+  "pis": [
+   "Hu",
+   "He"
+  ],
+  "topics": [
+   "Runback & water films"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2026adverse",
+  "title": "Adverse weather effects on the power production of a utility-scale wind turbine",
+  "authors": "L. Gao, H. Sista, H. Hu, J. Hong, H. Hu",
+  "year": 2026,
+  "venue": "Scientific Reports",
+  "doi": "10.1038/s41598-026-68501-x",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "fang2026agentic",
+  "title": "Agentic AI for Conversational Aerodynamic Analysis and Optimization of Airfoils and Wings",
+  "authors": "L. Fang, P. He",
+  "year": 2026,
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-2395",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "wang2026experimental",
+  "title": "An Experimental Study on the Aerodynamic Performance Degradation of a High-Lift UAV Airfoil Induced by Ice Accretion",
+  "authors": "J. Wang, A. Dhulipalla, H. Hu",
+  "year": 2026,
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-0887",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "muhammed2026transient",
+  "title": "An experimental investigation of transient ice accretion process on a high-lift airfoil model for UAV applications",
+  "authors": "M. Muhammed, A. Dhulipalla, H. Sista, H.A. Khawaja, M.S. Virk, H. Hu",
+  "year": 2026,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2025.111612",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "samad2026ice",
+  "title": "An experimental study of ice accretion characteristics on a UAV propeller in forward flight",
+  "authors": "A. Samad, A. Dhulipalla, K. Bowers, H. Hu",
+  "year": 2026,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2026.111775",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "sista2026experimental",
+  "title": "An experimental study on ice accretion characteristics and icing-induced aerodynamic penalties to offshore wind turbines",
+  "authors": "H. Sista, H. Hu, H. Hu",
+  "year": 2026,
+  "venue": "Renewable Energy",
+  "doi": "10.1016/j.renene.2025.124348",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "formichetti2026assimilating",
+  "title": "Assimilating Rough Features: A Data-Driven Framework to Infer Rough Wall Properties from Sparse Experimental Data",
+  "authors": "M. Formichetti, U. Cadambi Padmanaban, P. He, S. Symon, B. Ganapathisubramani",
+  "year": 2026,
+  "venue": "Flow, Turbulence and Combustion",
+  "doi": "10.1007/s10494-026-00777-5",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "kumar2026bubble",
+  "title": "Bubble coalescence dynamics in a high-Reynolds number decaying turbulent flow",
+  "authors": "V. Kumar, P. Suchandra, A. Javadi, S.S. Jain, C.K. Aidun",
+  "year": 2026,
+  "venue": "Journal of Fluid Mechanics",
+  "doi": "10.1017/jfm.2026.11410",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "samad2026experimentalb",
+  "title": "Experimental Analysis of Flow Separation Control on UAV Propellers Using Dielectric Barrier Discharge Plasma Actuators",
+  "authors": "A. Samad, K. Bowers, H. Sista, A. Dhulipalla, H. Hu",
+  "year": 2026,
+  "venue": "Aerospace",
+  "doi": "10.3390/aerospace13080668",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "li2026field",
+  "title": "Field Inversion Machine Learning for Time-Resolved Unsteady Flows in Airfoil Dynamic Stall",
+  "authors": "Z. Li, L. Fang, J. Chen, A. Sharma, P. He",
+  "year": 2026,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J066648",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zabaleta2026large",
+  "title": "Large-Eddy Simulation of Droplet Impingement: Application to Clean and Laser-Scanned Ice Shapes",
+  "authors": "F. Zabaleta, B. Bornhoft, S.S. Jain, S.T. Bose, P. Moin",
+  "year": 2026,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J067128",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zoppelt2026multidisciplinary",
+  "title": "Multidisciplinary Conceptual Design Optimization of Unmanned Aerial Vehicles Using Aviary",
+  "authors": "S. Zoppelt, P. He",
+  "year": 2026,
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-0373",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "kolbakir2026parametric",
+  "title": "Parametric study on the thermodynamic characteristic of DBD plasma actuations pertinent to aircraft icing mitigation",
+  "authors": "C. Kolbakir, H. Hu, Y. Liu, H. Hu",
+  "year": 2026,
+  "venue": "Transport Phenomena",
+  "doi": "10.1515/tp-2026-0073",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "chen2026physminer",
+  "title": "PhysMiner: An Agentic AI Framework for Automated Flow Component Analysis",
+  "authors": "J. Chen, H. Gao, P. He",
+  "year": 2026,
+  "venue": "arXiv",
+  "doi": "10.48550/ARXIV.2607.04009",
+  "pis": [
+   "He",
+   "Gao"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Preprint"
+ },
+ {
+  "key": "guo2026supercooled",
+  "title": "Recent Developments in Supercooled Large Droplet Research: Impact, Splashing, Surface Water Dynamics, and Ice Accretion",
+  "authors": "Y. Guo, Y. Liu, M. Sussman, H. Hu, Y. Lian",
+  "year": 2026,
+  "venue": "Fluids",
+  "doi": "10.3390/fluids11070162",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hatashita2026scalings",
+  "title": "Scalings and simulation requirements in two-phase flows",
+  "authors": "L.H. Hatashita, P. Nathan, S.S. Jain",
+  "year": 2026,
+  "venue": "Physical Review Fluids",
+  "doi": "10.1103/3t33-4k53",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "han2026toward",
+  "title": "Toward nonlinear representations with Gaussian-splat manifolds for physics-informed learning",
+  "authors": "X. Han, K. Chen, R. Wang, G. Wei, L. Han, H. Gao",
+  "year": 2026,
+  "venue": "Nature Communications",
+  "doi": "10.1038/s41467-026-76254-4",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "wang2026transient",
+  "title": "Transient mass transport characteristics of deicing fluids during wind-driven flow-off process pertinent to aircraft ground anti-/de-icing",
+  "authors": "J. Wang, H. Hu",
+  "year": 2026,
+  "venue": "International Journal of Multiphase Flow",
+  "doi": "10.1016/j.ijmultiphaseflow.2026.105790",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "nathan2025accurate",
+  "title": "Accurate calculation of bubble and droplet properties in diffuse-interface two-phase simulations",
+  "authors": "P.J. Nathan, S.S. Jain",
+  "year": 2025,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2025.114190",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2025aerothermal",
+  "title": "Aerothermal Shape Optimization of Actively-Cooled Battery Packs Using Conjugate Heat Transfer",
+  "authors": "P. He, C. Psenica, L. Fang, M. Leader",
+  "year": 2025,
+  "venue": "AIAA SCITECH 2025 Forum",
+  "doi": "10.2514/6.2025-1559",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "wang2025experimental",
+  "title": "An Experimental Investigation on Dynamic Water Runback Process Over the Blade Surface of a Rotating Drone Propeller",
+  "authors": "J. Wang, A. Dhulipalla, Y. Zhao, A. Nunes, H. Hu",
+  "year": 2025,
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2025",
+  "doi": "10.2514/6.2025-3164",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "samad2025experimentalb",
+  "title": "An Experimental Study of the Dynamic Icing Process on UAV Rotor Blades in Forward Flight",
+  "authors": "A. Samad, A. Dhulipalla, H. Hu",
+  "year": 2025,
+  "venue": "AIAA SCITECH 2025 Forum",
+  "doi": "10.2514/6.2025-1446",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "hu2025pitot",
+  "title": "An Experimental Study on Pitot Probe Icing Protection with an Electro-Thermal/Superhydrophobic Hybrid Strategy",
+  "authors": "H. Hu, F. Al-Masri, H. Hu",
+  "year": 2025,
+  "venue": "Aerospace",
+  "doi": "10.3390/aerospace12100862",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "valentin2025experimental",
+  "title": "An Experimental Study on the Rain-Erosion Characteristics of Anti-Icing Coatings Used for UAV Inflight Icing Mitigation",
+  "authors": "C.A. Valentin, H. Sista, A. Kumar, A. Samad, H. Hu, H. Hu",
+  "year": 2025,
+  "venue": "AIAA SCITECH 2025 Forum",
+  "doi": "10.2514/6.2025-2058",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "wang2025carbon",
+  "title": "An Explorative Study on Using Carbon Nanotube-Based Superhydrophobic Self-Heating Coatings for UAV Icing Protection",
+  "authors": "J. Wang, J. Frantz, E. Chumbley, A. Samad, H. Hu",
+  "year": 2025,
+  "venue": "Molecules",
+  "doi": "10.3390/molecules30173472",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "samad2025rotor",
+  "title": "An experimental study to evaluate the effectiveness of a Rotor-Integrated-Heating system for UAV inflight icing protection",
+  "authors": "A. Samad, A. Dhulipalla, H. Hu",
+  "year": 2025,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2025.111485",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "samad2025multirotor",
+  "title": "Comparative Study of Various Strategies for Multirotor UAV Propeller Icing Mitigation",
+  "authors": "A. Samad, A. Dhulipalla, H. Hu",
+  "year": 2025,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J064823",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "wang2025digital",
+  "title": "Development of a digital inline holographic system for aircraft icing studies",
+  "authors": "J. Wang, E. Chumbley, M. Shyam Kumar, J. Hong, H. Hu",
+  "year": 2025,
+  "venue": "Applied Optics",
+  "doi": "10.1364/AO.559679",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Measurement techniques",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "li2025field",
+  "title": "Field Inversion Machine Learning for Accurate Predictions of Time-Resolved Unsteady Flows Over Airfoils",
+  "authors": "Z. Li, L. Fang, A. Sharma, P. He",
+  "year": 2025,
+  "venue": "AIAA SCITECH 2025 Forum",
+  "doi": "10.2514/6.2025-2049",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2025generative",
+  "title": "Generative learning of the solution of parametric Partial Differential Equations using guided diffusion models and virtual observations",
+  "authors": "H. Gao, S. Kaltenbach, P. Koumoutsakos",
+  "year": 2025,
+  "venue": "Computer Methods in Applied Mechanics and Engineering",
+  "doi": "10.1016/j.cma.2024.117654",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "fang2025implicit",
+  "title": "Implicit Runge-Kutta Schemes for Segregated Solutions of Unsteady Flow and Adjoint Equations",
+  "authors": "L. Fang, P. He",
+  "year": 2025,
+  "venue": "AIAA SCITECH 2025 Forum",
+  "doi": "10.2514/6.2025-0577",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "pacini2025investigating",
+  "title": "Investigating the benefit of aerodynamic shape optimization for a wing with distributed propulsion",
+  "authors": "B. Pacini, M. Prajapati, K. Duraisamy, J.R.R.A. Martins, P. He",
+  "year": 2025,
+  "venue": "Meccanica",
+  "doi": "10.1007/s11012-025-01969-5",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zabaleta2025large",
+  "title": "Large-eddy simulations of conjugate heat transfer in boundary layers over laser-scanned ice roughness",
+  "authors": "F. Zabaleta, B. Bornhoft, S.S. Jain, S.T. Bose, P. Moin",
+  "year": 2025,
+  "venue": "Physical Review Fluids",
+  "doi": "10.1103/fkg4-y3vf",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2025learning",
+  "title": "Learning Effective Dynamics across Spatio-Temporal Scales of Complex Flows",
+  "authors": "H. Gao, S. Kaltenbach, P. Koumoutsakos",
+  "year": 2025,
+  "venue": "Conference on Parsimony and Learning (CPAL), Proceedings Track",
+  "doi": "10.48550/ARXIV.2502.07990",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Preprint"
+ },
+ {
+  "key": "choi2025multidisciplinary",
+  "title": "Multidisciplinary optimization of end-to-end Mars aerobraking trajectory and spacecraft design",
+  "authors": "S. Choi, O. Abdelkhalik, P. He",
+  "year": 2025,
+  "venue": "Advances in Space Research",
+  "doi": "10.1016/j.asr.2025.03.022",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "bornhoft2025use",
+  "title": "On the Use of Artificial Ice Shapes for Large-Eddy Simulations in Aircraft Icing",
+  "authors": "B. Bornhoft, P. Moin, S.S. Jain, S.T. Bose",
+  "year": 2025,
+  "venue": "Journal of Aircraft",
+  "doi": "10.2514/1.C038146",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2025stationary",
+  "title": "Stationary states of forced two-phase turbulence",
+  "authors": "S.S. Jain, A. Elnahhas",
+  "year": 2025,
+  "venue": "Chemical Engineering Journal",
+  "doi": "10.1016/j.cej.2025.169077",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "fang2024segregated",
+  "title": "A Segregated Time-Accurate Adjoint Method for Field Inversion of Unsteady Flow",
+  "authors": "L. Fang, P. He",
+  "year": 2024,
+  "venue": "AIAA SCITECH 2024 Forum",
+  "doi": "10.2514/6.2024-0158",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "fang2024duality",
+  "title": "A duality-preserving adjoint method for segregated Navier–Stokes solvers",
+  "authors": "L. Fang, P. He",
+  "year": 2024,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2024.112860",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2024model",
+  "title": "A model for transport of interface-confined scalars and insoluble surfactants in two-phase flows",
+  "authors": "S.S. Jain",
+  "year": 2024,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2024.113277",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hwang2024robust",
+  "title": "A robust phase-field method for two-phase flows on unstructured grids",
+  "authors": "H. Hwang, S.S. Jain",
+  "year": 2024,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2024.112972",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "bidar2024aerodynamic",
+  "title": "Aerodynamic Shape Optimisation Using a Machine Learning-Augmented Turbulence Model",
+  "authors": "O. Bidar, P. He, S. Anderson, N. Qin",
+  "year": 2024,
+  "venue": "AIAA SCITECH 2024 Forum",
+  "doi": "10.2514/6.2024-1231",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "LES & multiphase CFD",
+   "Generative AI & ML",
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2024bayesian",
+  "title": "Bayesian conditional diffusion models for versatile spatiotemporal turbulence generation",
+  "authors": "H. Gao, X. Han, X. Fan, L. Sun, L.P. Liu, L. Duan, J.X. Wang",
+  "year": 2024,
+  "venue": "Computer Methods in Applied Mechanics and Engineering",
+  "doi": "10.1016/j.cma.2024.117023",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "LES & multiphase CFD",
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hu2024superhydrophobic",
+  "title": "Comparative Study of Using Superhydrophobic and Icephobic Surface Coatings for Aircraft Icing Mitigation",
+  "authors": "H. Hu, L. Tian, C. Eluchie, H. Sista, H. Hu",
+  "year": 2024,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J063579",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "harris2024control",
+  "title": "Control Co-Design Optimization of Spacecraft Trajectory and System for Interplanetary Missions",
+  "authors": "G.W. Harris, P. He, O.O. Abdelkhalik",
+  "year": 2024,
+  "venue": "Journal of Spacecraft and Rockets",
+  "doi": "10.2514/1.A35680",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "wang2024discovering",
+  "title": "Discovering Symmetry Breaking in Physical Systems with Relaxed Group Convolution",
+  "authors": "R. Wang, E. Hofgard, H. Gao, R. Walters, T.E. Smidt",
+  "year": 2024,
+  "venue": "International Conference on Machine Learning (ICML)",
+  "doi": "10.48550/ARXIV.2310.02299",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Preprint"
+ },
+ {
+  "key": "fang2024field",
+  "title": "Field inversion machine learning augmented turbulence modeling for time-accurate unsteady flow",
+  "authors": "L. Fang, P. He",
+  "year": 2024,
+  "venue": "Physics of Fluids",
+  "doi": "10.1063/5.0207704",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "LES & multiphase CFD",
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2024generative",
+  "title": "Generative learning for forecasting the dynamics of high-dimensional complex systems",
+  "authors": "H. Gao, S. Kaltenbach, P. Koumoutsakos",
+  "year": 2024,
+  "venue": "Nature Communications",
+  "doi": "10.1038/s41467-024-53165-w",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zoppelt2024high",
+  "title": "High-fidelity Aerostructural Optimization Benchmark for Aircraft Propellers in Hover",
+  "authors": "S.A. Zoppelt, H. Koyuncuoglu, P. He",
+  "year": 2024,
+  "venue": "AIAA SCITECH 2024 Forum",
+  "doi": "10.2514/6.2024-2773",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "tian2024ice",
+  "title": "Ice accretion characteristics on rotating aeroengine fan blades",
+  "authors": "L. Tian, H. Hu, R. Veerakumar, H. Hu",
+  "year": 2024,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2024.111181",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zabaleta2024large",
+  "title": "Large-Eddy Simulation of Supercooled Large Droplets Impingement Using a Lagrangian Particle Approach",
+  "authors": "F. Zabaleta, S.S. Jain, B.J. Bornhoft, S. Bose, P. Moin",
+  "year": 2024,
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
+  "doi": "10.2514/6.2024-4162",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "bornhoft2024largecrm65",
+  "title": "Large-eddy simulations of the CRM65 swept wing under real and artificial icing conditions",
+  "authors": "B.J. Bornhoft, S.S. Jain, S.T. Bose, P. Moin",
+  "year": 2024,
+  "venue": "AIAA SCITECH 2024 Forum",
+  "doi": "10.2514/6.2024-1336",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "bornhoft2024large",
+  "title": "Large-eddy simulations of the NACA23012 airfoil with laser-scanned ice shapes",
+  "authors": "B. Bornhoft, S.S. Jain, K. Goc, S.T. Bose, P. Moin",
+  "year": 2024,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2024.108957",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "harris2024low",
+  "title": "Low-Thrust Spacecraft Trajectory Optimization with Gravity-Assist Maneuver using Dymos",
+  "authors": "G.W. Harris, P. He",
+  "year": 2024,
+  "venue": "AIAA SCITECH 2024 Forum",
+  "doi": "10.2514/6.2024-0633",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "maureloujia2024neural",
+  "title": "Neural network models for preferential concentration of particles in two-dimensional turbulence",
+  "authors": "T. Maurel-Oujia, S.S. Jain, K. Matsuda, K. Schneider, J.R. West, K. Maeda",
+  "year": 2024,
+  "venue": "Theoretical and Computational Fluid Dynamics",
+  "doi": "10.1007/s00162-024-00716-y",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD",
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "wang2024predicting",
+  "title": "Predicting Interfacial Shear Stress Distributions of Wind-Driven Water Runback Flows Using Physics-Informed Neural Networks",
+  "authors": "J. Wang, P. He, H. Hu",
+  "year": 2024,
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
+  "doi": "10.2514/6.2024-3932",
+  "pis": [
+   "Hu",
+   "He"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Generative AI & ML"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "bornhoft2024roughness",
+  "title": "Roughness Modeling Investigation in Large-Eddy Simulations of a NACA23012 Airfoil Under Rime Ice Conditions",
+  "authors": "B.J. Bornhoft, S.S. Jain, S. Bose, P. Moin",
+  "year": 2024,
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
+  "doi": "10.2514/6.2024-4001",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "wang2023data",
+  "title": "A Data-Driven Approach to Study Nonlinear Dynamics of Wind-Driven Water Runback Flows Pertinent to Aircraft Icing Phenomena",
+  "authors": "J. Wang, H. Hu, P. He, H. Hu",
+  "year": 2023,
+  "venue": "AIAA AVIATION 2023 Forum",
+  "doi": "10.2514/6.2023-4365",
+  "pis": [
+   "Hu",
+   "He"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Icing physics"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "brown2023phase",
+  "title": "A Phase Field Model for Simulating the Freezing of Supercooled Liquid Droplets",
+  "authors": "L. Brown, S. Jain, P. Moin",
+  "year": 2023,
+  "venue": "SAE International Journal of Advances and Current Practices in Mobility",
+  "doi": "10.4271/2023-01-1454",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2023computational",
+  "title": "A computational model for transport of immiscible scalars in two-phase flows",
+  "authors": "S.S. Jain, A. Mani",
+  "year": 2023,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2022.111843",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "han2023flight",
+  "title": "A flight-testing campaign to examine inflight icing characteristics and its effects on the flight performance of an Unmanned-Aerial-Vehicle",
+  "authors": "N. Han, M. Siddique, Z. Zhang, L. Tian, H. Hu, H. Hu",
+  "year": 2023,
+  "venue": "Cold Regions Science and Technology",
+  "doi": "10.1016/j.coldregions.2023.103775",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "wang2023machine",
+  "title": "A machine learning study to predict wind-driven water runback characteristics",
+  "authors": "J. Wang, H. Hu, P. He, H. Hu",
+  "year": 2023,
+  "venue": "Physics of Fluids",
+  "doi": "10.1063/5.0167545",
+  "pis": [
+   "Hu",
+   "He"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "li2023accelerating",
+  "title": "Accelerating unsteady aerodynamic simulations using predictive reduced-order modeling",
+  "authors": "Z. Li, P. He",
+  "year": 2023,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2023.108412",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2023adaptive",
+  "title": "An Adaptive Model Reduction Method Leveraging Locally Supported Basis Functions",
+  "authors": "H. Gao, M.J. Zahr",
+  "year": 2023,
+  "venue": "International Journal of Computational Fluid Dynamics",
+  "doi": "10.1080/10618562.2024.2326553",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "veerakumar2023experimentaldynamic",
+  "title": "An experimental study of dynamic icing process on an Aluminum-Conductor-Steel-Reinforced power cable with twisted outer strands",
+  "authors": "R. Veerakumar, L. Tian, H. Hu, Y. Liu, H. Hu",
+  "year": 2023,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2022.110823",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "veerakumar2023experimentalrime",
+  "title": "An experimental study of rime ice accretion on bundled conductors",
+  "authors": "R. Veerakumar, H. Hu, L. Tian, N. Han, H. Hu",
+  "year": 2023,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2023.110962",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2023assessment",
+  "title": "Assessment of diffuse-interface methods for compressible multiphase fluid flows and elastic-plastic deformation in solids",
+  "authors": "S.S. Jain, M.C. Adler, J.R. West, A. Mani, P. Moin, S.K. Lele",
+  "year": 2023,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2022.111866",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "koyuncuoglu2023cfd",
+  "title": "CFD Based Multi-Component Aerodynamic Optimization for Wing Propeller Coupling",
+  "authors": "H. Koyuncuoglu, P. He",
+  "year": 2023,
+  "venue": "AIAA SCITECH 2023 Forum",
+  "doi": "10.2514/6.2023-1844",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "keane2023effect",
+  "title": "Effect of interpolation kernels and grid refinement on two way-coupled point-particle simulations",
+  "authors": "N.A. Keane, S.V. Apte, S.S. Jain, M.A. Khanwale",
+  "year": 2023,
+  "venue": "International Journal of Multiphase Flow",
+  "doi": "10.1016/j.ijmultiphaseflow.2023.104517",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hu2023ice",
+  "title": "Experimental Investigation on Ice Accretion Upon Ice Particle Impacting onto Heated Surface",
+  "authors": "H. Hu, L. Tian, H. Hu",
+  "year": 2023,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J062425",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "tian2023dynamic",
+  "title": "Experimental Study of Dynamic Ice Accretion Process over Rotating Aeroengine Fan Blades",
+  "authors": "L. Tian, L. Li, H. Hu, H. Hu",
+  "year": 2023,
+  "venue": "Journal of Thermophysics and Heat Transfer",
+  "doi": "10.2514/1.T6667",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hu2023dynamic",
+  "title": "Experimental Study of Dynamic Icing Process on a Pitot Probe Model",
+  "authors": "H. Hu, F. Al-Masri, L. Tian, H. Hu",
+  "year": 2023,
+  "venue": "Journal of Thermophysics and Heat Transfer",
+  "doi": "10.2514/1.T6782",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2023high",
+  "title": "High-fidelity aerodynamic and aerostructural optimization of UAV propellers using the adjoint method",
+  "authors": "P. He, H. Koyuncuoglu, H. Hu, A. Dhulipalla, H. Hu, H. Hu",
+  "year": 2023,
+  "venue": "AIAA SCITECH 2023 Forum",
+  "doi": "10.2514/6.2023-0531",
+  "pis": [
+   "Hu",
+   "He"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "jain2023large",
+  "title": "Large-Eddy Simulation of Droplet Impingement Using a Lagrangian Particle Model",
+  "authors": "S. Jain, B. Bornhoft, S. Bose, P. Moin",
+  "year": 2023,
+  "venue": "SAE Technical Paper Series",
+  "doi": "10.4271/2023-01-1466",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "bornhoft2023large",
+  "title": "Large-Eddy Simulation of a NACA23012 Airfoil under Clean and Iced Conditions",
+  "authors": "B. Bornhoft, S. Jain, K. Goc, S. Bose, P. Moin",
+  "year": 2023,
+  "venue": "SAE Technical Paper Series",
+  "doi": "10.4271/2023-01-1483",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "sun2023unifying",
+  "title": "Unifying Predictions of Deterministic and Stochastic Physics in Mesh-reduced Space with Sequential Flow Generative Model",
+  "authors": "L. Sun, X. Han, H. Gao, J.X. Wang, L.P. Liu",
+  "year": 2023,
+  "venue": "Advances in Neural Information Processing Systems",
+  "doi": "",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "wang2022machine",
+  "title": "A Machine Learning Prediction of the Wind-Driven Water Runback Characteristics Pertinent to Aircraft Icing Phenomena",
+  "authors": "J. Wang, H. Hu, P. He, H. Hu",
+  "year": 2022,
+  "venue": "AIAA AVIATION 2022 Forum",
+  "doi": "10.2514/6.2022-3243",
+  "pis": [
+   "Hu",
+   "He"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Icing physics",
+   "Generative AI & ML"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "mirjalili2022computational",
+  "title": "A computational model for interfacial heat and mass transfer in two-phase flows using a phase field method",
+  "authors": "S. Mirjalili, S.S. Jain, A. Mani",
+  "year": 2022,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2022.123326",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2022kinetic",
+  "title": "A kinetic energy–and entropy-preserving scheme for compressible two-phase flows",
+  "authors": "S.S. Jain, P. Moin",
+  "year": 2022,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2022.111307",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2022accurate",
+  "title": "Accurate conservative phase-field method for simulation of two-phase flows",
+  "authors": "S.S. Jain",
+  "year": 2022,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2022.111529",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "bidar2022open",
+  "title": "An Open-Source Adjoint-based Field Inversion Tool for Data-driven RANS modelling",
+  "authors": "O. Bidar, P. He, S. Anderson, N. Qin",
+  "year": 2022,
+  "venue": "AIAA AVIATION 2022 Forum",
+  "doi": "10.2514/6.2022-4125",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "peng2022experimental",
+  "title": "An experimental study on mitigating dynamic ice accretion process on bridge cables with a superhydrophobic coating",
+  "authors": "Y. Peng, R. Veerakumar, Z. Zhang, H. Hu, Y. Liu, X. He, H. Hu",
+  "year": 2022,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2021.110573",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "koyuncuoglu2022coupled",
+  "title": "Coupled Wing-propeller Aerodynamic Optimization Using the Adjoint Method",
+  "authors": "H. Koyuncuoglu, P. He",
+  "year": 2022,
+  "venue": "AIAA SCITECH 2022 Forum",
+  "doi": "10.2514/6.2022-0015",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2022patchgt",
+  "title": "PatchGT: Transformer over Non-trainable Clusters for Learning Graph Representations",
+  "authors": "H. Gao, X. Han, J. Huang, J.X. Wang, L.P. Liu",
+  "year": 2022,
+  "venue": "Learning on Graphs Conference (LoG)",
+  "doi": "10.48550/ARXIV.2211.14425",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Preprint"
+ },
+ {
+  "key": "gao2022physicsinformed",
+  "title": "Physics-informed graph neural Galerkin networks: A unified framework for solving PDE-governed forward and inverse problems",
+  "authors": "H. Gao, M.J. Zahr, J.X. Wang",
+  "year": 2022,
+  "venue": "Computer Methods in Applied Mechanics and Engineering",
+  "doi": "10.1016/j.cma.2021.114502",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "han2022predicting",
+  "title": "Predicting Physics in Mesh-reduced Space with Temporal Attention",
+  "authors": "X. Han, H. Gao, T. Pfaff, J.X. Wang, L.P. Liu",
+  "year": 2022,
+  "venue": "International Conference on Learning Representations (ICLR)",
+  "doi": "10.48550/ARXIV.2201.09113",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Preprint"
+ },
+ {
+  "key": "koyuncuoglu2022simultaneous",
+  "title": "Simultaneous wing shape and actuator parameter optimization using the adjoint method",
+  "authors": "H.U. Koyuncuoglu, P. He",
+  "year": 2022,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2022.107876",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "bornhoft2022wall",
+  "title": "Wall-modeled LES of laser-scanned rime, glaze, and horn ice shapes",
+  "authors": "B. Bornhoft, S.S. Jain, K. Goc, S.T. Bose, P. Moin",
+  "year": 2022,
+  "venue": "Annual Research Briefs 2022",
+  "doi": "",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2021bifidelity",
+  "title": "A Bi-fidelity ensemble kalman method for PDE-constrained inverse problems in computational mechanics",
+  "authors": "H. Gao, J.X. Wang",
+  "year": 2021,
+  "venue": "Computational Mechanics",
+  "doi": "10.1007/s00466-021-01979-6",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2021field",
+  "title": "A field study of ice accretion and its effects on the power production of utility-scale wind turbines",
+  "authors": "L. Gao, T. Tao, Y. Liu, H. Hu",
+  "year": 2021,
+  "venue": "Renewable Energy",
+  "doi": "10.1016/j.renene.2020.12.014",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2021hybrid",
+  "title": "A hybrid time-spectral approach for aerodynamic shape optimization with unsteady flow",
+  "authors": "P. He, J.R. Martins",
+  "year": 2021,
+  "venue": "AIAA Scitech 2021 Forum",
+  "doi": "10.2514/6.2021-0278",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "zhang2021rain",
+  "title": "An experimental study of rain erosion effects on a hydro-/ice-phobic coating pertinent to Unmanned-Arial-System (UAS) inflight icing mitigation",
+  "authors": "Z. Zhang, L. Ma, Y. Liu, J. Ren, H. Hu",
+  "year": 2021,
+  "venue": "Cold Regions Science and Technology",
+  "doi": "10.1016/j.coldregions.2020.103196",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zhang2021deicing",
+  "title": "An experimental study on the detrimental effects of deicing fluids on the performance of icephobic coatings for aircraft icing mitigation",
+  "authors": "Z. Zhang, L. A, H. Hu, X. Bai, H. Hu",
+  "year": 2021,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2021.107090",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zhang2021experimentalrunback",
+  "title": "An experimental study on the transient runback characteristics of wind-driven film/rivulet flows",
+  "authors": "K. Zhang, H. Hu",
+  "year": 2021,
+  "venue": "Physics of Fluids",
+  "doi": "10.1063/5.0067672",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "ma2021bioinspired",
+  "title": "Bio-Inspired Icephobic Coatings for Aircraft Icing Mitigation: A Critical Review",
+  "authors": "L. Ma, Z. Zhang, L. Gao, Y. Liu, H. Hu",
+  "year": 2021,
+  "venue": "Progress in Adhesion and Adhesives",
+  "doi": "10.1002/9781119846703.ch7",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "secco2021efficient",
+  "title": "Efficient Mesh Generation and Deformation for Aerodynamic Shape Optimization",
+  "authors": "N.R. Secco, G.K.W. Kenway, P. He, C. Mader, J.R.R.A. Martins",
+  "year": 2021,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J059491",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2021phygeonet",
+  "title": "PhyGeoNet: Physics-informed geometry-adaptive convolutional neural networks for solving parameterized steady-state PDEs on irregular domain",
+  "authors": "H. Gao, L. Sun, J.X. Wang",
+  "year": 2021,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2020.110079",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "du2021rapid",
+  "title": "Rapid airfoil design optimization via neural networks-based parameterization and surrogate modeling",
+  "authors": "X. Du, P. He, J.R. Martins",
+  "year": 2021,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2021.106701",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Generative AI & ML",
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2021superresolution",
+  "title": "Super-resolution and denoising of fluid flow using physics-informed convolutional neural networks without high-resolution labels",
+  "authors": "H. Gao, L. Sun, J.X. Wang",
+  "year": 2021,
+  "venue": "Physics of Fluids",
+  "doi": "10.1063/5.0054312",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "tran2021unsteady",
+  "title": "Unsteady Aerodynamic Optimization of Airfoils Considering Shape and Propeller Parameters",
+  "authors": "K.T. Tran, P. He",
+  "year": 2021,
+  "venue": "AIAA AVIATION 2021 FORUM",
+  "doi": "10.2514/6.2021-3033",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2021wind",
+  "title": "Wind turbine icing characteristics and icing-induced power losses to utility-scale wind turbines",
+  "authors": "L. Gao, H. Hu",
+  "year": 2021,
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi": "10.1073/pnas.2111461118",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2020bifidelity",
+  "title": "A bi-fidelity surrogate modeling approach for uncertainty propagation in three-dimensional hemodynamic simulations",
+  "authors": "H. Gao, X. Zhu, J.X. Wang",
+  "year": 2020,
+  "venue": "Computer Methods in Applied Mechanics and Engineering",
+  "doi": "10.1016/j.cma.2020.113047",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2020conservative",
+  "title": "A conservative diffuse-interface method for compressible two-phase flows",
+  "authors": "S.S. Jain, A. Mani, P. Moin",
+  "year": 2020,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2020.109606",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2020experimental",
+  "title": "An experimental investigation on the dynamic glaze ice accretion process over a wind turbine airfoil surface",
+  "authors": "L. Gao, Y. Liu, H. Hu",
+  "year": 2020,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2019.119120",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2020experimentaldynamic",
+  "title": "An experimental investigation on the dynamic ice accretion and unsteady heat transfer over an airfoil surface with embedded initial ice roughness",
+  "authors": "Y. Liu, K. Zhang, W. Tian, H. Hu",
+  "year": 2020,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2019.118900",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "li2020hot",
+  "title": "An experimental study on a hot-air-based anti-/de-icing system for aero-engine inlet guide vanes",
+  "authors": "L. Li, Y. Liu, L. Tian, H. Hu, H. Hu, X. Liu, I. Hogate, A. Kohli",
+  "year": 2020,
+  "venue": "Applied Thermal Engineering",
+  "doi": "10.1016/j.applthermaleng.2019.114778",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "kolbakir2020plasma",
+  "title": "An experimental study on different plasma actuator layouts for aircraft icing mitigation",
+  "authors": "C. Kolbakir, H. Hu, Y. Liu, H. Hu",
+  "year": 2020,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2020.106325",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "peng2020experimental",
+  "title": "An experimental study on dynamic ice accretion and its effects on the aerodynamic characteristics of stay cables with and without helical fillets",
+  "authors": "Y. Peng, R. Veerakumar, Y. Liu, X. He, H. Hu",
+  "year": 2020,
+  "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+  "doi": "10.1016/j.jweia.2020.104326",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2020experimentalrunback",
+  "title": "An experimental study to characterize the effects of initial ice roughness on the wind-driven water runback over an airfoil surface",
+  "authors": "Y. Liu, K. Zhang, W. Tian, H. Hu",
+  "year": 2020,
+  "venue": "International Journal of Multiphase Flow",
+  "doi": "10.1016/j.ijmultiphaseflow.2020.103254",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "ma2020exploratory",
+  "title": "An exploratory study on using Slippery-Liquid-Infused-Porous-Surface (SLIPS) for wind turbine icing mitigation",
+  "authors": "L. Ma, Z. Zhang, L. Gao, Y. Liu, H. Hu",
+  "year": 2020,
+  "venue": "Renewable Energy",
+  "doi": "10.1016/j.renene.2020.10.013",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2020dafoam",
+  "title": "DAFoam: An Open-Source Adjoint Framework for Multidisciplinary Design Optimization with OpenFOAM",
+  "authors": "P. He, C.A. Mader, J.R.R.A. Martins, K.J. Maki",
+  "year": 2020,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J058853",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "veerakumar2020dynamic",
+  "title": "Dynamic ice accretion process and its effects on the aerodynamic drag characteristics of a power transmission cable model",
+  "authors": "R. Veerakumar, L. Gao, Y. Liu, H. Hu",
+  "year": 2020,
+  "venue": "Cold Regions Science and Technology",
+  "doi": "10.1016/j.coldregions.2019.102908",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2020nonintrusive",
+  "title": "Non-intrusive model reduction of large-scale, nonlinear dynamical systems using deep learning",
+  "authors": "H. Gao, J.X. Wang, M.J. Zahr",
+  "year": 2020,
+  "venue": "Physica D: Nonlinear Phenomena",
+  "doi": "10.1016/j.physd.2020.132614",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zhang2020numerical",
+  "title": "Numerical Investigation of a Submerged Water Jet Impinging at Various Angles on Ground",
+  "authors": "X. Zhang, R.K. Agarwal, H. Gao, L. Zhou",
+  "year": 2020,
+  "venue": "AIAA Scitech 2020 Forum",
+  "doi": "10.2514/6.2020-2038",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "hu2020dielectric",
+  "title": "Optimization of Dielectric Barrier Discharge Plasma Actuators for Icing Control",
+  "authors": "H. Hu, X. Meng, J. Cai, W. Zhou, Y. Liu, H. Hu",
+  "year": 2020,
+  "venue": "Journal of Aircraft",
+  "doi": "10.2514/1.C035697",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics",
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "guo2020ssrvfd",
+  "title": "SSR-VFD: Spatial Super-Resolution for Vector Field Data Analysis and Visualization",
+  "authors": "L. Guo, S. Ye, J. Han, H. Zheng, H. Gao, D.Z. Chen, J.X. Wang, C. Wang",
+  "year": 2020,
+  "venue": "2020 IEEE Pacific Visualization Symposium (PacificVis)",
+  "doi": "10.1109/pacificvis48177.2020.8737",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "sun2020surrogate",
+  "title": "Surrogate modeling for fluid flows based on physics-constrained deep learning without simulation data",
+  "authors": "L. Sun, H. Gao, S. Pan, J.X. Wang",
+  "year": 2020,
+  "venue": "Computer Methods in Applied Mechanics and Engineering",
+  "doi": "10.1016/j.cma.2019.112732",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Generative AI & ML"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2019conservative",
+  "title": "A conservative and non-dissipative Eulerian formulation for the simulation of soft solids in fluids",
+  "authors": "S.S. Jain, K. Kamrin, A. Mani",
+  "year": 2019,
+  "venue": "Journal of Computational Physics",
+  "doi": "10.1016/j.jcp.2019.108922",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2019hybrid",
+  "title": "A hybrid strategy combining minimized leading-edge electric-heating and superhydro-/ice-phobic surface coating for wind turbine icing mitigation",
+  "authors": "L. Gao, Y. Liu, L. Ma, H. Hu",
+  "year": 2019,
+  "venue": "Renewable Energy",
+  "doi": "10.1016/j.renene.2019.03.112",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2019aerothermal",
+  "title": "Aerothermal optimization of a ribbed U-bend cooling channel using the adjoint method",
+  "authors": "P. He, C.A. Mader, J.R. Martins, K.J. Maki",
+  "year": 2019,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2019.05.075",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2019object",
+  "title": "An Object-oriented Framework for Rapid Discrete Adjoint Development using OpenFOAM",
+  "authors": "P. He, C.A. Mader, J.R.R.A. Martins, K. Maki",
+  "year": 2019,
+  "venue": "AIAA Scitech 2019 Forum",
+  "doi": "10.2514/6.2019-1210",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2019experimentaldynamic",
+  "title": "An experimental investigation of dynamic ice accretion process on a wind turbine airfoil model considering various icing conditions",
+  "authors": "L. Gao, Y. Liu, H. Hu",
+  "year": 2019,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2018.12.181",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "li2019dynamic",
+  "title": "An experimental study on dynamic ice accretion process over the surfaces of rotating aero-engine spinners",
+  "authors": "L. Li, Y. Liu, H. Hu",
+  "year": 2019,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2019.109879",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2019aerodynamic",
+  "title": "An experimental study on the aerodynamic performance degradation of a UAS propeller model induced by ice accretion process",
+  "authors": "Y. Liu, L. Li, W. Chen, W. Tian, H. Hu",
+  "year": 2019,
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2018.11.008",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2019experimentalaerodynamic",
+  "title": "An experimental study on the aerodynamic performance degradation of a wind turbine blade model induced by ice accretion process",
+  "authors": "L. Gao, Y. Liu, W. Zhou, H. Hu",
+  "year": 2019,
+  "venue": "Renewable Energy",
+  "doi": "10.1016/j.renene.2018.10.032",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2019experimentalbridge",
+  "title": "An experimental study on the dynamic ice accretion processes on bridge cables with different surface modifications",
+  "authors": "Y. Liu, W. Chen, Y. Peng, H. Hu",
+  "year": 2019,
+  "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+  "doi": "10.1016/j.jweia.2019.05.007",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2019thermal",
+  "title": "An experimental study on the thermal characteristics of NS-DBD plasma actuation and application for aircraft icing mitigation",
+  "authors": "Y. Liu, C. Kolbakir, A.Y. Starikovskiy, R. Miles, H. Hu",
+  "year": 2019,
+  "venue": "Plasma Sources Science and Technology",
+  "doi": "10.1088/1361-6595/aaedf8",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2019experimentalthermal",
+  "title": "An experimental study on the thermal effects of duty-cycled plasma actuation pertinent to aircraft icing mitigation",
+  "authors": "Y. Liu, C. Kolbakir, H. Hu, X. Meng, H. Hu",
+  "year": 2019,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2019.03.068",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2019experimentallaser",
+  "title": "An experimental study to characterize a surface treated with a novel laser surface texturing technique: Water repellency and reduced ice adhesion",
+  "authors": "Y. Liu, Z. Zhang, H. Hu, H. Hu, A. Samanta, Q. Wang, H. Ding",
+  "year": 2019,
+  "venue": "Surface and Coatings Technology",
+  "doi": "10.1016/j.surfcoat.2019.06.046",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "chan2019birth",
+  "title": "Birth of microbubbles in turbulent breaking waves",
+  "authors": "W.H.R. Chan, S. Mirjalili, S.S. Jain, J. Urzay, A. Mani, P. Moin",
+  "year": 2019,
+  "venue": "Physical Review Fluids",
+  "doi": "10.1103/PhysRevFluids.4.100508",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2019design",
+  "title": "Design optimization for self-propulsion of a bulk carrier hull using a discrete adjoint method",
+  "authors": "P. He, G. Filip, J.R. Martins, K.J. Maki",
+  "year": 2019,
+  "venue": "Computers & Fluids",
+  "doi": "10.1016/j.compfluid.2019.104259",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "prakash2019detailed",
+  "title": "Detailed numerical simulations of atomization of a liquid jet in a swirling gas crossflow",
+  "authors": "S.R. Prakash, S.S. Jain, J.A. Lovett, B.N. Raghunandan, R.V. Ravikrishna, G. Tomar",
+  "year": 2019,
+  "venue": "Atomization and Sprays",
+  "doi": "10.1615/AtomizSpr.2019031322",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "rosti2019droplets",
+  "title": "Droplets in homogeneous shear turbulence",
+  "authors": "M.E. Rosti, Z. Ge, S.S. Jain, M.S. Dodd, L. Brandt",
+  "year": 2019,
+  "venue": "Journal of Fluid Mechanics",
+  "doi": "10.1017/jfm.2019.581",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "kenway2019effective",
+  "title": "Effective adjoint approaches for computational fluid dynamics",
+  "authors": "G.K. Kenway, C.A. Mader, P. He, J.R. Martins",
+  "year": 2019,
+  "venue": "Progress in Aerospace Sciences",
+  "doi": "10.1016/j.paerosci.2019.05.002",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "li2019thermal",
+  "title": "Effects of thermal conductivity of airframe substrate on the dynamic ice accretion process pertinent to UAS inflight icing phenomena",
+  "authors": "L. Li, Y. Liu, Z. Zhang, H. Hu",
+  "year": 2019,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2018.11.132",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "meng2019mechanism",
+  "title": "Mechanism study of coupled aerodynamic and thermal effects using plasma actuation for anti-icing",
+  "authors": "X. Meng, H. Hu, C. Li, A.A. Abbasi, J. Cai, H. Hu",
+  "year": 2019,
+  "venue": "Physics of Fluids",
+  "doi": "10.1063/1.5086884",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2019numerical",
+  "title": "Numerical Simulation of the Cavitation Flow around a Hydrofoil Based on a Coupled CFD-PBM Model",
+  "authors": "Q. Liu, K. Xu, H. Gao, R.K. Agarwal",
+  "year": 2019,
+  "venue": "AIAA Scitech 2019 Forum",
+  "doi": "10.2514/6.2019-2305",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2019numerical",
+  "title": "Numerical Study of a Hovering Helicopter Rotor Blade in Ground Effect",
+  "authors": "H. Gao, R.K. Agarwal",
+  "year": 2019,
+  "venue": "AIAA Scitech 2019 Forum",
+  "doi": "10.2514/6.2019-1099",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "UAV & rotorcraft"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2019quantification",
+  "title": "Quantification of the 3D shapes of the ice structures accreted on a wind turbine airfoil model",
+  "authors": "L. Gao, R. Veerakumar, Y. Liu, H. Hu",
+  "year": 2019,
+  "venue": "Journal of Visualization",
+  "doi": "10.1007/s12650-019-00567-4",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jain2019secondary",
+  "title": "Secondary breakup of drops at moderate Weber numbers: Effect of Density ratio and Reynolds number",
+  "authors": "S.S. Jain, N. Tyagi, R.S. Prakash, R. Ravikrishna, G. Tomar",
+  "year": 2019,
+  "venue": "International Journal of Multiphase Flow",
+  "doi": "10.1016/j.ijmultiphaseflow.2019.04.026",
+  "pis": [
+   "Jain"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2019study",
+  "title": "Study of Round Jet Impingement in Proximity of Ground and Water Surface",
+  "authors": "H. Gao, Q. Liu, Q. Qu, R.K. Agarwal",
+  "year": 2019,
+  "venue": "Journal of Aircraft",
+  "doi": "10.2514/1.c035086",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2018comparison",
+  "title": "A comparison study on the thermal effects in DBD plasma actuation and electrical heating for aircraft icing mitigation",
+  "authors": "Y. Liu, C. Kolbakir, H. Hu, H. Hu",
+  "year": 2018,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2018.03.076",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "he2018aerodynamic",
+  "title": "An aerodynamic design optimization framework using a discrete adjoint approach with OpenFOAM",
+  "authors": "P. He, C.A. Mader, J.R. Martins, K.J. Maki",
+  "year": 2018,
+  "venue": "Computers & Fluids",
+  "doi": "10.1016/j.compfluid.2018.04.012",
+  "pis": [
+   "He"
+  ],
+  "topics": [
+   "Agents & design optimization"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2018experimentalunsteady",
+  "title": "An experimental investigation on the unsteady heat transfer process over an ice accreting airfoil surface",
+  "authors": "Y. Liu, H. Hu",
+  "year": 2018,
+  "venue": "International Journal of Heat and Mass Transfer",
+  "doi": "10.1016/j.ijheatmasstransfer.2018.02.023",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2018surface",
+  "title": "An experimental study of surface wettability effects on dynamic ice accretion process over an UAS propeller model",
+  "authors": "Y. Liu, L. Li, H. Li, H. Hu",
+  "year": 2018,
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2017.12.003",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2018soft",
+  "title": "An experimental study on soft PDMS materials for aircraft icing mitigation",
+  "authors": "Y. Liu, L. Ma, W. Wang, A.K. Kota, H. Hu",
+  "year": 2018,
+  "venue": "Applied Surface Science",
+  "doi": "10.1016/j.apsusc.2018.04.032",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "gao2018cfd",
+  "title": "CFD Simulations of Two Rectangular Water Jets Impinging on a Water Pool",
+  "authors": "H. Gao, X. Han, Q. Liu, R.K. Agarwal",
+  "year": 2018,
+  "venue": "2018 Fluid Dynamics Conference",
+  "doi": "10.2514/6.2018-4038",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "liu2018dynamic",
+  "title": "Experimental Investigation on the Dynamic Icing Process over a Rotating Propeller Model",
+  "authors": "Y. Liu, L. Li, Z. Ning, W. Tian, H. Hu",
+  "year": 2018,
+  "venue": "Journal of Propulsion and Power",
+  "doi": "10.2514/1.B36748",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "UAV & rotorcraft",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2018numerical",
+  "title": "Numerical Investigation of Cavitation Characteristics of a Liquid Oxygen Turbo Pump",
+  "authors": "Q. Liu, L. Gong, H. Gao, R.K. Agarwal",
+  "year": 2018,
+  "venue": "2018 Fluid Dynamics Conference",
+  "doi": "10.2514/6.2018-3222",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "gao2018numerical",
+  "title": "Numerical Study of Round Jet Impingement in Proximity of Ground and a Water Surface",
+  "authors": "H. Gao, Q. Liu, Q. Qu, R.K. Agarwal",
+  "year": 2018,
+  "venue": "2018 Fluid Dynamics Conference",
+  "doi": "10.2514/6.2018-4257",
+  "pis": [
+   "Gao"
+  ],
+  "topics": [
+   "Other"
+  ],
+  "type": "Conference"
+ },
+ {
+  "key": "zhou2018thermal",
+  "title": "Utilization of Thermal Effect Induced by Plasma Generation for Aircraft Icing Mitigation",
+  "authors": "W. Zhou, Y. Liu, H. Hu, H. Hu, X. Meng",
+  "year": 2018,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J056358",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Anti-/de-icing",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2017experimental",
+  "title": "An experimental study on the characteristics of wind-driven surface water film flows by using a multi-transducer ultrasonic pulse-echo technique",
+  "authors": "Y. Liu, W.L. Chen, L.J. Bond, H. Hu",
+  "year": 2017,
+  "venue": "Physics of Fluids",
+  "doi": "10.1063/1.4973398",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Measurement techniques",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "liu2017ultrasonic",
+  "title": "Ultrasonic-Attenuation-Based Technique for Ice Characterization Pertinent to Aircraft Icing Phenomena",
+  "authors": "Y. Liu, L.J. Bond, H. Hu",
+  "year": 2017,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J055500",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Measurement techniques",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "waldman2016high",
+  "title": "High-Speed Imaging to Quantify Transient Ice Accretion Process over an Airfoil",
+  "authors": "R.M. Waldman, H. Hu",
+  "year": 2016,
+  "venue": "Journal of Aircraft",
+  "doi": "10.2514/1.C033367",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Measurement techniques",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "zhang2015experimental",
+  "title": "An experimental investigation on the surface water transport process over an airfoil by using a digital image projection technique",
+  "authors": "K. Zhang, T. Wei, H. Hu",
+  "year": 2015,
+  "venue": "Experiments in Fluids",
+  "doi": "10.1007/s00348-015-2046-z",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Measurement techniques",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "li2015droplet",
+  "title": "Simultaneous measurements of droplet size, flying velocity and transient temperature of in-flight droplets by using a molecular tagging technique",
+  "authors": "H. Li, F. Chen, H. Hu",
+  "year": 2015,
+  "venue": "Experiments in Fluids",
+  "doi": "10.1007/s00348-015-2063-y",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Measurement techniques",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hu2014quantification",
+  "title": "Quantification of transient behavior of wind-driven surface droplet/rivulet flows using a digital fringe projection technique",
+  "authors": "H. Hu, B. Wang, K. Zhang, W. Lohry, S. Zhang",
+  "year": 2014,
+  "venue": "Journal of Visualization",
+  "doi": "10.1007/s12650-014-0264-8",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hu2010icing",
+  "title": "An icing physics study by using lifetime-based molecular tagging thermometry technique",
+  "authors": "H. Hu, Z. Jin",
+  "year": 2010,
+  "venue": "International Journal of Multiphase Flow",
+  "doi": "10.1016/j.ijmultiphaseflow.2010.04.001",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Measurement techniques",
+   "Icing physics"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jin2010icing",
+  "title": "Icing Process of Small Water Droplets Impinging onto a Frozen Cold Plate",
+  "authors": "Z. Jin, H. Hu",
+  "year": 2010,
+  "venue": "Journal of Thermophysics and Heat Transfer",
+  "doi": "10.2514/1.49606",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "jin2009unsteady",
+  "title": "Quantification of unsteady heat transfer and phase changing process inside small icing water droplets",
+  "authors": "Z. Jin, H. Hu",
+  "year": 2009,
+  "venue": "Review of Scientific Instruments",
+  "doi": "10.1063/1.3139005",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Icing physics",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "hu2009droplet",
+  "title": "Simultaneous Measurements of Droplet Size and Transient Temperature Within Surface Water Droplets",
+  "authors": "H. Hu, D. Huang",
+  "year": 2009,
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.37158",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Runback & water films",
+   "Measurement techniques",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ },
+ {
+  "key": "huang2007molecular",
+  "title": "Molecular tagging thermometry for transient temperature mapping within a water droplet",
+  "authors": "D. Huang, H. Hu",
+  "year": 2007,
+  "venue": "Optics Letters",
+  "doi": "10.1364/OL.32.003534",
+  "pis": [
+   "Hu"
+  ],
+  "topics": [
+   "Measurement techniques",
+   "LES & multiphase CFD"
+  ],
+  "type": "Journal"
+ }
+]

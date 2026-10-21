@@ -1,0 +1,352 @@
+{
+ "huang2007molecular": {
+  "title": "Molecular tagging thermometry for transient temperature mapping within a water droplet",
+  "authors": "D. Huang, H. Hu",
+  "year": "2007",
+  "venue": "Optics Letters",
+  "doi": "10.1364/OL.32.003534"
+ },
+ "hu2009droplet": {
+  "title": "Simultaneous Measurements of Droplet Size and Transient Temperature Within Surface Water Droplets",
+  "authors": "H. Hu, D. Huang",
+  "year": "2009",
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.37158"
+ },
+ "jin2009unsteady": {
+  "title": "Quantification of unsteady heat transfer and phase changing process inside small icing water droplets",
+  "authors": "Z. Jin, H. Hu",
+  "year": "2009",
+  "venue": "Review of Scientific Instruments",
+  "doi": "10.1063/1.3139005"
+ },
+ "hu2010icing": {
+  "title": "An icing physics study by using lifetime-based molecular tagging thermometry technique",
+  "authors": "H. Hu, Z. Jin",
+  "year": "2010",
+  "venue": "International Journal of Multiphase Flow",
+  "doi": "10.1016/j.ijmultiphaseflow.2010.04.001"
+ },
+ "waldman2016high": {
+  "title": "High-Speed Imaging to Quantify Transient Ice Accretion Process over an Airfoil",
+  "authors": "R.M. Waldman, H. Hu",
+  "year": "2016",
+  "venue": "Journal of Aircraft",
+  "doi": "10.2514/1.C033367"
+ },
+ "liu2018surface": {
+  "title": "An experimental study of surface wettability effects on dynamic ice accretion process over an UAS propeller model",
+  "authors": "Y. Liu, L. Li, H. Li, H. Hu",
+  "year": "2018",
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2017.12.003"
+ },
+ "liu2018soft": {
+  "title": "An experimental study on soft PDMS materials for aircraft icing mitigation",
+  "authors": "Y. Liu, L. Ma, W. Wang, A.K. Kota, H. Hu",
+  "year": "2018",
+  "venue": "Applied Surface Science",
+  "doi": "10.1016/j.apsusc.2018.04.032"
+ },
+ "liu2018dynamic": {
+  "title": "Experimental Investigation on the Dynamic Icing Process over a Rotating Propeller Model",
+  "authors": "Y. Liu, L. Li, Z. Ning, W. Tian, H. Hu",
+  "year": "2018",
+  "venue": "Journal of Propulsion and Power",
+  "doi": "10.2514/1.B36748"
+ },
+ "liu2019aerodynamic": {
+  "title": "An experimental study on the aerodynamic performance degradation of a UAS propeller model induced by ice accretion process",
+  "authors": "Y. Liu, L. Li, W. Chen, W. Tian, H. Hu",
+  "year": "2019",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2018.11.008"
+ },
+ "li2019dynamic": {
+  "title": "An experimental study on dynamic ice accretion process over the surfaces of rotating aero-engine spinners",
+  "authors": "L. Li, Y. Liu, H. Hu",
+  "year": "2019",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2019.109879"
+ },
+ "li2020hot": {
+  "title": "An experimental study on a hot-air-based anti-/de-icing system for aero-engine inlet guide vanes",
+  "authors": "L. Li, Y. Liu, L. Tian, H. Hu, H. Hu, X. Liu, I. Hogate, A. Kohli",
+  "year": "2020",
+  "venue": "Applied Thermal Engineering",
+  "doi": "10.1016/j.applthermaleng.2019.114778"
+ },
+ "hu2020dielectric": {
+  "title": "Optimization of Dielectric Barrier Discharge Plasma Actuators for Icing Control",
+  "authors": "H. Hu, X. Meng, J. Cai, W. Zhou, Y. Liu, H. Hu",
+  "year": "2020",
+  "venue": "Journal of Aircraft",
+  "doi": "10.2514/1.C035697"
+ },
+ "han2023flight": {
+  "title": "A flight-testing campaign to examine inflight icing characteristics and its effects on the flight performance of an Unmanned-Aerial-Vehicle",
+  "authors": "N. Han, M. Siddique, Z. Zhang, L. Tian, H. Hu, H. Hu",
+  "year": "2023",
+  "venue": "Cold Regions Science and Technology",
+  "doi": "10.1016/j.coldregions.2023.103775"
+ },
+ "hu2023dynamic": {
+  "title": "Experimental Study of Dynamic Icing Process on a Pitot Probe Model",
+  "authors": "H. Hu, F. Al-Masri, L. Tian, H. Hu",
+  "year": "2023",
+  "venue": "Journal of Thermophysics and Heat Transfer",
+  "doi": "10.2514/1.T6782"
+ },
+ "hu2024superhydrophobic": {
+  "title": "Comparative Study of Using Superhydrophobic and Icephobic Surface Coatings for Aircraft Icing Mitigation",
+  "authors": "H. Hu, L. Tian, C. Eluchie, H. Sista, H. Hu",
+  "year": "2024",
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J063579"
+ },
+ "tian2024ice": {
+  "title": "Ice accretion characteristics on rotating aeroengine fan blades",
+  "authors": "L. Tian, H. Hu, R. Veerakumar, H. Hu",
+  "year": "2024",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2024.111181"
+ },
+ "samad2025multirotor": {
+  "title": "Comparative Study of Various Strategies for Multirotor UAV Propeller Icing Mitigation",
+  "authors": "A. Samad, A. Dhulipalla, H. Hu",
+  "year": "2025",
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J064823"
+ },
+ "samad2025rotor": {
+  "title": "An experimental study to evaluate the effectiveness of a Rotor-Integrated-Heating system for UAV inflight icing protection",
+  "authors": "A. Samad, A. Dhulipalla, H. Hu",
+  "year": "2025",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2025.111485"
+ },
+ "wang2025digital": {
+  "title": "Development of a digital inline holographic system for aircraft icing studies",
+  "authors": "J. Wang, E. Chumbley, M. Shyam Kumar, J. Hong, H. Hu",
+  "year": "2025",
+  "venue": "Applied Optics",
+  "doi": "10.1364/AO.559679"
+ },
+ "wang2025carbon": {
+  "title": "An Explorative Study on Using Carbon Nanotube-Based Superhydrophobic Self-Heating Coatings for UAV Icing Protection",
+  "authors": "J. Wang, J. Frantz, E. Chumbley, A. Samad, H. Hu",
+  "year": "2025",
+  "venue": "Molecules",
+  "doi": "10.3390/molecules30173472"
+ },
+ "hu2025pitot": {
+  "title": "An Experimental Study on Pitot Probe Icing Protection with an Electro-Thermal/Superhydrophobic Hybrid Strategy",
+  "authors": "H. Hu, F. Al-Masri, H. Hu",
+  "year": "2025",
+  "venue": "Aerospace",
+  "doi": "10.3390/aerospace12100862"
+ },
+ "muhammed2026transient": {
+  "title": "An experimental investigation of transient ice accretion process on a high-lift airfoil model for UAV applications",
+  "authors": "M. Muhammed, A. Dhulipalla, H. Sista, H.A. Khawaja, M.S. Virk, H. Hu",
+  "year": "2026",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2025.111612"
+ },
+ "samad2026ice": {
+  "title": "An experimental study of ice accretion characteristics on a UAV propeller in forward flight",
+  "authors": "A. Samad, A. Dhulipalla, K. Bowers, H. Hu",
+  "year": "2026",
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2026.111775"
+ },
+ "wang2026slippery": {
+  "title": "A Novel Slippery Liquid-like Icephobic Surface Coating for Unmanned-Aerial-Vehicle Propeller Icing Protection",
+  "authors": "J. Wang, C. Valentin, K. Bowers, L. Hao, B. Fan, H. Hu",
+  "year": "2026",
+  "venue": "Coatings",
+  "doi": "10.3390/coatings16080973"
+ },
+ "samad2027dielectric": {
+  "title": "Exploration of using dielectric barrier discharge plasma actuators for UAV propeller icing protection",
+  "authors": "A. Samad, A. Dhulipalla, K. Bowers, H. Sista, H. Hu",
+  "year": "2027",
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2026.113921"
+ },
+ "liu2020experimentalrunback": {
+  "title": "An experimental study to characterize the effects of initial ice roughness on the wind-driven water runback over an airfoil surface",
+  "authors": "Y. Liu, K. Zhang, W. Tian, H. Hu",
+  "year": "2020",
+  "venue": "International Journal of Multiphase Flow",
+  "doi": "10.1016/j.ijmultiphaseflow.2020.103254"
+ },
+ "zhang2015experimental": {
+  "title": "An experimental investigation on the surface water transport process over an airfoil by using a digital image projection technique",
+  "authors": "K. Zhang, T. Wei, H. Hu",
+  "year": "2015",
+  "venue": "Experiments in Fluids",
+  "doi": "10.1007/s00348-015-2046-z"
+ },
+ "zhang2021experimentalrunback": {
+  "title": "An experimental study on the transient runback characteristics of wind-driven film/rivulet flows",
+  "authors": "K. Zhang, H. Hu",
+  "year": "2021",
+  "venue": "Physics of Fluids",
+  "doi": "10.1063/5.0067672"
+ },
+ "peng2022experimental": {
+  "title": "An experimental study on mitigating dynamic ice accretion process on bridge cables with a superhydrophobic coating",
+  "authors": "Y. Peng, R. Veerakumar, Z. Zhang, H. Hu, Y. Liu, X. He, H. Hu",
+  "year": "2022",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2021.110573"
+ },
+ "veerakumar2023experimentaldynamic": {
+  "title": "An experimental study of dynamic icing process on an Aluminum-Conductor-Steel-Reinforced power cable with twisted outer strands",
+  "authors": "R. Veerakumar, L. Tian, H. Hu, Y. Liu, H. Hu",
+  "year": "2023",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2022.110823"
+ },
+ "veerakumar2023experimentalrime": {
+  "title": "An experimental study of rime ice accretion on bundled conductors",
+  "authors": "R. Veerakumar, H. Hu, L. Tian, N. Han, H. Hu",
+  "year": "2023",
+  "venue": "Experimental Thermal and Fluid Science",
+  "doi": "10.1016/j.expthermflusci.2023.110962"
+ },
+ "liu2019experimentalbridge": {
+  "title": "An experimental study on the dynamic ice accretion processes on bridge cables with different surface modifications",
+  "authors": "Y. Liu, W. Chen, Y. Peng, H. Hu",
+  "year": "2019",
+  "venue": "Journal of Wind Engineering and Industrial Aerodynamics",
+  "doi": "10.1016/j.jweia.2019.05.007"
+ },
+ "bornhoft2024large": {
+  "title": "Large-eddy simulations of the NACA23012 airfoil with laser-scanned ice shapes",
+  "authors": "B. Bornhoft, S.S. Jain, K. Goc, S.T. Bose, P. Moin",
+  "year": "2024",
+  "venue": "Aerospace Science and Technology",
+  "doi": "10.1016/j.ast.2024.108957"
+ },
+ "zabaleta2025large": {
+  "title": "Large-eddy simulations of conjugate heat transfer in boundary layers over laser-scanned ice roughness",
+  "authors": "F. Zabaleta, B. Bornhoft, S.S. Jain, S.T. Bose, P. Moin",
+  "year": "2025",
+  "venue": "Physical Review Fluids",
+  "doi": "10.1103/fkg4-y3vf"
+ },
+ "zabaleta2026large": {
+  "title": "Large-Eddy Simulation of Droplet Impingement: Application to Clean and Laser-Scanned Ice Shapes",
+  "authors": "F. Zabaleta, B. Bornhoft, S.S. Jain, S.T. Bose, P. Moin",
+  "year": "2026",
+  "venue": "AIAA Journal",
+  "doi": "10.2514/1.J067128"
+ },
+ "bornhoft2023large": {
+  "title": "Large-Eddy Simulation of a NACA23012 Airfoil under Clean and Iced Conditions",
+  "authors": "B. Bornhoft, S. Jain, K. Goc, S. Bose, P. Moin",
+  "year": "2023",
+  "venue": "SAE Technical Paper Series",
+  "doi": "10.4271/2023-01-1483"
+ },
+ "bornhoft2024largecrm65": {
+  "title": "Large-eddy simulations of the CRM65 swept wing under real and artificial icing conditions",
+  "authors": "B.J. Bornhoft, S.S. Jain, S.T. Bose, P. Moin",
+  "year": "2024",
+  "venue": "AIAA SCITECH 2024 Forum",
+  "doi": "10.2514/6.2024-1336"
+ },
+ "bornhoft2024roughness": {
+  "title": "Roughness Modeling Investigation in Large-Eddy Simulations of a NACA23012 Airfoil Under Rime Ice Conditions",
+  "authors": "B.J. Bornhoft, S.S. Jain, S. Bose, P. Moin",
+  "year": "2024",
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
+  "doi": "10.2514/6.2024-4001"
+ },
+ "bornhoft2025use": {
+  "title": "On the Use of Artificial Ice Shapes for Large-Eddy Simulations in Aircraft Icing",
+  "authors": "B. Bornhoft, P. Moin, S.S. Jain, S.T. Bose",
+  "year": "2025",
+  "venue": "Journal of Aircraft",
+  "doi": "10.2514/1.C038146"
+ },
+ "zabaleta2026multi": {
+  "title": "A Multi-Physics Simulation of Heat Transfer in Iced Airfoils under Realistic Icing Conditions",
+  "authors": "F. Zabaleta, B.J. Bornhoft, S.S. Jain, S. Bose, P. Moin",
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-0683"
+ },
+ "jain2023large": {
+  "title": "Large-Eddy Simulation of Droplet Impingement Using a Lagrangian Particle Model",
+  "authors": "S. Jain, B. Bornhoft, S. Bose, P. Moin",
+  "year": "2023",
+  "venue": "SAE Technical Paper Series",
+  "doi": "10.4271/2023-01-1466"
+ },
+ "zabaleta2024large": {
+  "title": "Large-Eddy Simulation of Supercooled Large Droplets Impingement Using a Lagrangian Particle Approach",
+  "authors": "F. Zabaleta, S.S. Jain, B.J. Bornhoft, S. Bose, P. Moin",
+  "year": "2024",
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
+  "doi": "10.2514/6.2024-4162"
+ },
+ "bornhoft2022wall": {
+  "title": "Wall-modeled LES of laser-scanned rime, glaze, and horn ice shapes",
+  "authors": "B. Bornhoft, S.S. Jain, K. Goc, S.T. Bose, P. Moin",
+  "year": "2022",
+  "venue": "Annual Research Briefs 2022",
+  "doi": ""
+ },
+ "chen2026physminer": {
+  "title": "PhysMiner: An Agentic AI Framework for Automated Flow Component Analysis",
+  "authors": "J. Chen, H. Gao, P. He",
+  "year": "2026",
+  "venue": "",
+  "doi": "10.48550/ARXIV.2607.04009"
+ },
+ "wang2026experimental": {
+  "title": "An Experimental Study on the Aerodynamic Performance Degradation of a High-Lift UAV Airfoil Induced by Ice Accretion",
+  "authors": "J. Wang, A. Dhulipalla, H. Hu",
+  "year": "2026",
+  "venue": "AIAA SCITECH 2026 Forum",
+  "doi": "10.2514/6.2026-0887"
+ },
+ "shin1992results": {
+  "title": "Results of an icing test on a NACA 0012 airfoil in the NASA Lewis Icing Research Tunnel",
+  "authors": "J. Shin, T. Bond",
+  "year": "1992",
+  "venue": "30th Aerospace Sciences Meeting and Exhibit",
+  "doi": "10.2514/6.1992-647"
+ },
+ "wang2026numerical": {
+  "title": "A numerical study on wind-driven runback characteristics of a thin water film flow over a solid surface",
+  "authors": "J. Wang, P. He, H. Hu",
+  "year": "2026",
+  "venue": "Acta Mechanica Sinica",
+  "doi": "10.1007/s10409-025-25073-x"
+ },
+ "wang2024predicting": {
+  "title": "Predicting Interfacial Shear Stress Distributions of Wind-Driven Water Runback Flows Using Physics-Informed Neural Networks",
+  "authors": "J. Wang, P. He, H. Hu",
+  "year": "2024",
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
+  "doi": "10.2514/6.2024-3932"
+ },
+ "wang2025experimental": {
+  "title": "An Experimental Investigation on Dynamic Water Runback Process Over the Blade Surface of a Rotating Drone Propeller",
+  "authors": "J. Wang, A. Dhulipalla, Y. Zhao, A. Nunes, H. Hu",
+  "year": "2025",
+  "venue": "AIAA AVIATION FORUM AND ASCEND 2025",
+  "doi": "10.2514/6.2025-3164"
+ },
+ "levinson2008iceval": {
+  "title": "IceVal DatAssistant–-An Interactive, Automated Icing Data Management System",
+  "authors": "L. Levinson, W. Wright",
+  "year": "2008",
+  "venue": "46th AIAA Aerospace Sciences Meeting and Exhibit",
+  "doi": "10.2514/6.2008-443"
+ }
+}

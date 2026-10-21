@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>FROST-Bench · FROST</title>
+<meta name="description" content="FROST-Bench: four benchmark tasks on measured aircraft-icing physics.">
+<meta property="og:title" content="FROST-Bench · FROST">
+<meta property="og:description" content="FROST-Bench: four benchmark tasks on measured aircraft-icing physics.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg viewBox='0 0 40 40' aria-hidden='true'%3E%3Cdefs%3E%3ClinearGradient id='lgf' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235b9dff'/%3E%3Cstop offset='.55' stop-color='%232b6fe3'/%3E%3Cstop offset='1' stop-color='%2300a6a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='url(%23lgf)'/%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='none' stroke='rgba(255,255,255,.35)' stroke-width='1'/%3E%3Cg stroke='%23fff' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round' fill='none'%3E%3Cpath d='M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5'/%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3Cg transform='rotate(60 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3Cg transform='rotate(120 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/frost.css">
+</head>
+<body data-dark-hero>
+<div class="banner"><span class="dot"></span><strong>Preview of the FROST portal.</strong> Records are in curation; the first public release is FROST v0.5. Until then, the team shares data on request.</div>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="index.html" aria-label="FROST home"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgh)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">AI-ready aircraft icing data</span></span></a>
+    <nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="datasets.html">Datasets</a><a href="benchmarks.html" aria-current=page>FROST-Bench</a><a href="ai.html">AI &amp; Agents</a><a href="software.html">Software</a><a href="publications.html">Publications</a><a href="team.html">Team</a><a href="access.html">Access</a></nav>
+    <a class="btn btn-primary btn-sm header-cta" href="access.html#request">Request access</a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<main>
+<section class="page-hero"><div class="bgimg" style="background-image:url(assets/img/irt402.jpg)"></div>
+  <div class="container">
+    
+    <span class="eyebrow">FROST-Bench</span>
+    <h1>Benchmarks built on measured icing physics</h1>
+    <p>Fluid dynamics has large AI-ready simulation collections, but none with measured icing physics. FROST-Bench poses four tasks with held-out splits, partial observations, and calibrated-uncertainty metrics.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Four tasks</span><h2>T1–T4</h2><p>Each benchmark ships as a dataset card with held-out splits. Generated samples are released only as labeled benchmarks, never as data.</p></div>
+    <div class="tasks"><div class="task fade-in"><img src="assets/img/t/scan-growth.jpg" alt="Ice shape on unseen conditions" loading=lazy><div class="bd"><span class="id">T1</span><h3>Ice shape on unseen conditions</h3><p>Generate the 3D ice shape for icing conditions and geometries held out from training.</p>
+  <div class="metric"><b>Metric:</b> Ice-thickness error ≤10% of peak; spatial correlation ≥0.90</div></div></div><div class="task fade-in"><img src="assets/img/t/piv-s1223.jpg" alt="Complete PIV shadows and sparse sensors" loading=lazy><div class="bd"><span class="id">T2</span><h3>Complete PIV shadows and sparse sensors</h3><p>Fill the regions PIV cannot see, sparse pressure taps, and onboard sensors, with calibrated uncertainty.</p>
+  <div class="metric"><b>Metric:</b> Empirical coverage of 90% intervals within 5 points of nominal</div></div></div><div class="task fade-in"><img src="assets/img/t/s1223-les-mean.jpg" alt="Super-resolve PIV-like averages" loading=lazy><div class="bd"><span class="id">T3</span><h3>Super-resolve PIV-like averages</h3><p>Recover fine-scale fields that are consistent with coarse, PIV-like cell averages.</p>
+  <div class="metric"><b>Metric:</b> Exact consistency with the observed cell averages</div></div></div><div class="task fade-in"><img src="assets/img/t/cht-vs-ir.jpg" alt="Multi-fidelity calibration" loading=lazy><div class="bd"><span class="id">T4</span><h3>Multi-fidelity calibration</h3><p>Calibrate simulation priors to measurements across fidelities.</p>
+  <div class="metric"><b>Metric:</b> Mass and energy residuals ≤5%</div></div></div></div>
+  </div>
+</section>
+<section class="section section-ice">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">First benchmarks · FROST v0.5</span><h2>Benchmark records</h2></div>
+    <div class="related"><a class="ds" href="datasets/s1223-uav-wing.html" data-item data-order="0" data-title="Rime and glaze ice on a high-lift UAV wing (S1223)"
+  data-collection="tunnel" data-origin="measured" data-release="v0.5" data-geometry="Airfoil &amp; wing"
+  data-modality="3D ice scan|Loads|Surface pressure|PIV|High-speed video" data-year="2026" data-text="rime and glaze ice on a high-lift uav wing (s1223) ice grown on an s1223 uav wing in the isu-irt, laser-scanned, 3d-printed, and re-tested for loads, surface pressure, and piv. two independent simulations of the same scanned shape complete the region piv cannot see. 3d ice scan loads surface pressure piv high-speed video airfoil &amp; wing rime glaze isu-irt tunnel archive hu, gao" style="--c:#2B6FE3;--ci:#1d4fb0">
+  <div class="im"><img src="assets/img/t/scan-s1223.jpg" alt="3D-scanned ice on the S1223 UAV wing, suction and pressure sides" loading=lazy><div class="tl"><span class="badge rel-v05">FROST v0.5</span><span class="badge org-measured">Measured</span></div></div>
+  <div class="bar"></div>
+  <div class="bd"><span class="coll">ISU-IRT tunnel archive</span><h3>Rime and glaze ice on a high-lift UAV wing (S1223)</h3><p>Ice grown on an S1223 UAV wing in the ISU-IRT, laser-scanned, 3D-printed, and re-tested for loads, surface pressure, and PIV. Two independent simulations of the same scanned shape complete the region PIV cannot see.</p><div class="tags"><span class="chip">3D ice scan</span><span class="chip">Loads</span><span class="chip">Surface pressure</span></div></div>
+  <div class="ft"><span>Hu, Gao</span><span><span class="status-dot"></span>&nbsp; In curation</span></div>
+</a><a class="ds" href="datasets/irt-401-405.html" data-item data-order="0" data-title="Ice-accretion ensembles for NASA IRT runs 401–405"
+  data-collection="isusim" data-origin="model" data-release="v0.5" data-geometry="Airfoil &amp; wing"
+  data-modality="Ice shapes|Model fields" data-year="1992" data-text="ice-accretion ensembles for nasa irt runs 401–405 an agent-developed 3d ice-accretion model run in ensembles on the five nasa irt reference cases, with no fitted coefficients. ice shapes model fields airfoil &amp; wing rime glaze isu simulations gao, hu" style="--c:#8E5BD1;--ci:#6a3cad">
+  <div class="im"><img src="assets/img/t/irt402.jpg" alt="Ice shape, NASA IRT run 402: model ensemble vs. repeat runs" loading=lazy><div class="tl"><span class="badge rel-v05">FROST v0.5</span><span class="badge org-model">Model output</span></div></div>
+  <div class="bar"></div>
+  <div class="bd"><span class="coll">ISU simulations</span><h3>Ice-accretion ensembles for NASA IRT runs 401–405</h3><p>An agent-developed 3D ice-accretion model run in ensembles on the five NASA IRT reference cases, with no fitted coefficients.</p><div class="tags"><span class="chip">Ice shapes</span><span class="chip">Model fields</span></div></div>
+  <div class="ft"><span>Gao, Hu</span><span><span class="status-dot"></span>&nbsp; In curation</span></div>
+</a><a class="ds" href="datasets/nasa-irt-401-405.html" data-item data-order="0" data-title="NASA IRT runs 401–405 (NACA 0012)"
+  data-collection="external" data-origin="external" data-release="v0.5" data-geometry="Airfoil &amp; wing"
+  data-modality="Ice shapes" data-year="1992" data-text="nasa irt runs 401–405 (naca 0012) the classic nasa lewis irt icing test on a naca 0012 airfoil, with repeat runs. frost links it as the reference for its ice-accretion benchmark. ice shapes airfoil &amp; wing rime glaze external records to link nasa" style="--c:#F08A24;--ci:#a85508">
+  <div class="im"><img src="assets/img/t/ice-shape-band.jpg" alt="Predicted ice-shape ensemble against the NASA measurement" loading=lazy><div class="tl"><span class="badge rel-v05">FROST v0.5</span><span class="badge org-external">External record</span></div></div>
+  <div class="bar"></div>
+  <div class="bd"><span class="coll">External records to link</span><h3>NASA IRT runs 401–405 (NACA 0012)</h3><p>The classic NASA Lewis IRT icing test on a NACA 0012 airfoil, with repeat runs. FROST links it as the reference for its ice-accretion benchmark.</p><div class="tags"><span class="chip">Ice shapes</span></div></div>
+  <div class="ft"><span>NASA</span><span><span class="status-dot"></span>&nbsp; In curation</span></div>
+</a></div>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Leaderboard</span><h2>Submissions open with v0.5</h2></div>
+    <div class="table-scroll"><table class="board"><thead><tr><th>Rank</th><th>Method</th><th>Task</th><th>Score</th><th>Uncertainty coverage</th><th>Submitted</th></tr></thead>
+      <tbody><tr class="opens"><td colspan="6"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6"/></svg> <b style="color:var(--ink)">The leaderboard opens with FROST v0.5.</b><br>The public FROST-Bench challenge covers ice-shape generation, completion of PIV shadow regions, and in-flight ice inference.</td></tr></tbody></table></div>
+    <div class="grid-3" style="margin-top:36px">
+      <div class="card"><div class="ic"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0M16 4.5a3.5 3.5 0 0 1 0 7M18 14a5.5 5.5 0 0 1 3.5 6"/></svg></div><h3>Annual workshop and hackathon</h3><p>Co-located with the AIAA AVIATION Forum, where the icing community already meets.</p></div>
+      <div class="card"><div class="ic"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14 3 12l1-2 7 1 4-7h2l-2 8 5 1 1-2h1.5l-1 4 1 4H22l-1-2-5 1 2 8h-2l-4-7z"/></svg></div><h3>AIAA Ice Prediction Workshop</h3><p>Curated FROST cases offered to the <a href="https://icepredictionworkshop.wordpress.com/" target="_blank" rel="noopener">Ice Prediction Workshop</a>, where predicted heat-transfer coefficients once spanned 200–950 W/(m²K).</p></div>
+      <div class="card"><div class="ic"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v6c0 4.4 3 7.6 7 9 4-1.4 7-4.6 7-9V6z"/><path d="m9 12 2 2 4-4"/></svg></div><h3>Certified envelope</h3><p>FROST-Gen refuses queries outside its certified envelope rather than extrapolating, and every generated field is tagged.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot">
+      <div>
+        <a class="brand" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgf)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">Fused Repository of Observations, Simulations, and Tests</span></span></a>
+        <p style="margin-top:18px;max-width:380px">An AI-ready, governed community dataset of aircraft icing, built from two decades of icing-tunnel experiments and flight-test campaigns linked to validated simulation.</p>
+        <p style="margin:0">Iowa State University · Georgia Institute of Technology</p>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="datasets.html">Datasets</a></li><li><a href="record-s1223.html">Example record</a></li>
+        <li><a href="benchmarks.html">FROST-Bench</a></li><li><a href="ai.html">AI &amp; Agents</a></li></ul></div>
+      <div><h4>Project</h4><ul>
+        <li><a href="team.html">Team</a></li><li><a href="publications.html">Publications</a></li>
+        <li><a href="software.html">Software</a></li><li><a href="access.html">Access &amp; governance</a></li></ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="mailto:hgao1@iastate.edu">hgao1@iastate.edu</a></li>
+        <li><a href="access.html#request">Request data access</a></li>
+        <li><a href="access.html#contribute">Contribute data</a></li></ul></div>
+    </div>
+    <div class="fine"><span>Preview build · October 2026. Images are from the team's own archives and publications unless credited otherwise.</span><span>Data licenses: CC-BY-4.0 for Open-tier releases · code under OSI licenses</span></div>
+  </div>
+</footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="x" aria-label="Close"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><button class="prev" aria-label="Previous"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><button class="next" aria-label="Next"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+</div>
+<script src="assets/js/frost.js"></script>
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>FROST · AI-ready aircraft icing data</title>
+<meta name="description" content="FROST, the Fused Repository of Observations, Simulations, and Tests: two decades of aircraft-icing experiments and flight tests, linked to validated simulation and made AI-ready.">
+<meta property="og:title" content="FROST · AI-ready aircraft icing data">
+<meta property="og:description" content="FROST, the Fused Repository of Observations, Simulations, and Tests: two decades of aircraft-icing experiments and flight tests, linked to validated simulation and made AI-ready.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg viewBox='0 0 40 40' aria-hidden='true'%3E%3Cdefs%3E%3ClinearGradient id='lgf' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235b9dff'/%3E%3Cstop offset='.55' stop-color='%232b6fe3'/%3E%3Cstop offset='1' stop-color='%2300a6a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='url(%23lgf)'/%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='none' stroke='rgba(255,255,255,.35)' stroke-width='1'/%3E%3Cg stroke='%23fff' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round' fill='none'%3E%3Cpath d='M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5'/%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3Cg transform='rotate(60 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3Cg transform='rotate(120 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/frost.css">
+</head>
+<body data-dark-hero>
+<div class="banner"><span class="dot"></span><strong>Preview of the FROST portal.</strong> Records are in curation; the first public release is FROST v0.5. Until then, the team shares data on request.</div>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="index.html" aria-label="FROST home"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgh)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">AI-ready aircraft icing data</span></span></a>
+    <nav class="nav" aria-label="Main"><a href="index.html" aria-current=page>Home</a><a href="datasets.html">Datasets</a><a href="benchmarks.html">FROST-Bench</a><a href="ai.html">AI &amp; Agents</a><a href="software.html">Software</a><a href="publications.html">Publications</a><a href="team.html">Team</a><a href="access.html">Access</a></nav>
+    <a class="btn btn-primary btn-sm header-cta" href="access.html#request">Request access</a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<main>
+
+<section class="hero">
+  <svg class="crystals" viewBox="0 0 1440 800" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+    <defs><pattern id="hexes" width="56" height="97" patternUnits="userSpaceOnUse" patternTransform="scale(1.3)">
+      <path d="M28 0 56 16.2v32.4L28 64.8 0 48.6V16.2zM28 64.8V97" fill="none" stroke="rgba(150,190,255,.07)" stroke-width="1"/></pattern>
+      <radialGradient id="fadeh" cx="25%" cy="40%" r="70%"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></radialGradient>
+      <mask id="mh"><rect width="1440" height="800" fill="url(#fadeh)"/></mask></defs>
+    <rect width="1440" height="800" fill="url(#hexes)" mask="url(#mh)"/>
+  </svg>
+  <div class="container hero-grid">
+    <div class="hero-copy">
+      <span class="eyebrow">AI-ready data for aircraft icing</span>
+      <h1>FROST</h1>
+      <div class="expand"><b>F</b>used <b>R</b>epository of <b>O</b>bservations, <b>S</b>imulations, and <b>T</b>ests</div>
+      <p class="lead">Two decades of icing-tunnel experiments and UAV flight campaigns, linked to validated high-fidelity simulation and curated so that people, machine-learning models, and AI agents can learn icing physics from all of it at once.</p>
+      <div class="ctas">
+        <a class="btn btn-primary" href="datasets.html">Explore the archive <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <a class="btn btn-glass" href="record-s1223.html">See one FROST record</a>
+      </div>
+      <div class="note"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v20M3.3 7l17.4 10M20.7 7 3.3 17M9 4l3 2.5L15 4M9 20l3-2.5 3 2.5"/></svg> Built on the ISU Icing Research Tunnel, the only university-owned icing research tunnel in the U.S.</div>
+    </div>
+    <div class="wall" aria-label="Images from the archive"><div class="col"><figure style="--ar:1.401"><img src="assets/img/t/wmles-leading-edge.jpg" alt="Wall-modeled LES over a rime-iced leading edge" loading=lazy><figcaption>Wall-modeled LES over a rime-iced leading edge</figcaption></figure><figure style="--ar:1.431"><img src="assets/img/t/rotor-ice-sequence.jpg" alt="Ice accretion on a rotating UAV propeller blade, from clean to lobster-tail ice" loading=lazy><figcaption>Ice accretion on a rotating UAV propeller blade, from clean to lobster-tail ice</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/scan-s1223.jpg" alt="3D-scanned ice on the S1223 UAV wing, suction and pressure sides" loading=lazy><figcaption>3D-scanned ice on the S1223 UAV wing, suction and pressure sides</figcaption></figure><figure style="--ar:1.500"><img src="assets/img/t/irt-facility.jpg" alt="The ISU Icing Research Tunnel (ISU-IRT)" loading=lazy><figcaption>The ISU Icing Research Tunnel (ISU-IRT)</figcaption></figure><figure style="--ar:1.589"><img src="assets/img/t/plasma-glow.jpg" alt="DBD plasma discharge on a test article" loading=lazy><figcaption>DBD plasma discharge on a test article</figcaption></figure><figure style="--ar:1.633"><img src="assets/img/t/physminer-vortices.jpg" alt="PhysMiner: agent-labeled K–H and hairpin vortices over a glaze-iced airfoil" loading=lazy><figcaption>PhysMiner: agent-labeled K–H and hairpin vortices over a glaze-iced airfoil</figcaption></figure><figure style="--ar:1.401"><img src="assets/img/t/wmles-leading-edge.jpg" alt="Wall-modeled LES over a rime-iced leading edge" loading=lazy><figcaption>Wall-modeled LES over a rime-iced leading edge</figcaption></figure><figure style="--ar:1.431"><img src="assets/img/t/rotor-ice-sequence.jpg" alt="Ice accretion on a rotating UAV propeller blade, from clean to lobster-tail ice" loading=lazy><figcaption>Ice accretion on a rotating UAV propeller blade, from clean to lobster-tail ice</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/scan-s1223.jpg" alt="3D-scanned ice on the S1223 UAV wing, suction and pressure sides" loading=lazy><figcaption>3D-scanned ice on the S1223 UAV wing, suction and pressure sides</figcaption></figure><figure style="--ar:1.500"><img src="assets/img/t/irt-facility.jpg" alt="The ISU Icing Research Tunnel (ISU-IRT)" loading=lazy><figcaption>The ISU Icing Research Tunnel (ISU-IRT)</figcaption></figure><figure style="--ar:1.589"><img src="assets/img/t/plasma-glow.jpg" alt="DBD plasma discharge on a test article" loading=lazy><figcaption>DBD plasma discharge on a test article</figcaption></figure><figure style="--ar:1.633"><img src="assets/img/t/physminer-vortices.jpg" alt="PhysMiner: agent-labeled K–H and hairpin vortices over a glaze-iced airfoil" loading=lazy><figcaption>PhysMiner: agent-labeled K–H and hairpin vortices over a glaze-iced airfoil</figcaption></figure></div><div class="col"><figure style="--ar:1.700"><img src="assets/img/t/s1223-les-3d.jpg" alt="High-order GPU LES of the rime-iced S1223 (346 M unknowns)" loading=lazy><figcaption>High-order GPU LES of the rime-iced S1223 (346 M unknowns)</figcaption></figure><figure style="--ar:1.451"><img src="assets/img/t/uav-iced.jpg" alt="Iced UAV after an icing flight (1.8 m span)" loading=lazy><figcaption>Iced UAV after an icing flight (1.8 m span)</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/cht-les.jpg" alt="Conjugate-heat-transfer LES on scanned ice" loading=lazy><figcaption>Conjugate-heat-transfer LES on scanned ice</figcaption></figure><figure style="--ar:1.398"><img src="assets/img/t/ir-plasma.jpg" alt="IR thermography of DBD plasma actuators at increasing voltage" loading=lazy><figcaption>IR thermography of DBD plasma actuators at increasing voltage</figcaption></figure><figure style="--ar:1.401"><img src="assets/img/t/scan-airfoil.jpg" alt="3D scans of ice at four liquid water contents" loading=lazy><figcaption>3D scans of ice at four liquid water contents</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/crm65-surface-flow.jpg" alt="Surface flow on the iced CRM65 swept wing" loading=lazy><figcaption>Surface flow on the iced CRM65 swept wing</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/s1223-les-3d.jpg" alt="High-order GPU LES of the rime-iced S1223 (346 M unknowns)" loading=lazy><figcaption>High-order GPU LES of the rime-iced S1223 (346 M unknowns)</figcaption></figure><figure style="--ar:1.451"><img src="assets/img/t/uav-iced.jpg" alt="Iced UAV after an icing flight (1.8 m span)" loading=lazy><figcaption>Iced UAV after an icing flight (1.8 m span)</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/cht-les.jpg" alt="Conjugate-heat-transfer LES on scanned ice" loading=lazy><figcaption>Conjugate-heat-transfer LES on scanned ice</figcaption></figure><figure style="--ar:1.398"><img src="assets/img/t/ir-plasma.jpg" alt="IR thermography of DBD plasma actuators at increasing voltage" loading=lazy><figcaption>IR thermography of DBD plasma actuators at increasing voltage</figcaption></figure><figure style="--ar:1.401"><img src="assets/img/t/scan-airfoil.jpg" alt="3D scans of ice at four liquid water contents" loading=lazy><figcaption>3D scans of ice at four liquid water contents</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/crm65-surface-flow.jpg" alt="Surface flow on the iced CRM65 swept wing" loading=lazy><figcaption>Surface flow on the iced CRM65 swept wing</figcaption></figure></div><div class="col"><figure style="--ar:1.401"><img src="assets/img/t/piv-propeller.jpg" alt="Phase-locked PIV vorticity behind an iced propeller blade" loading=lazy><figcaption>Phase-locked PIV vorticity behind an iced propeller blade</figcaption></figure><figure style="--ar:1.401"><img src="assets/img/t/hs-airfoil.jpg" alt="High-speed imaging of ice growing on an airfoil leading edge" loading=lazy><figcaption>High-speed imaging of ice growing on an airfoil leading edge</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/engine-fan.jpg" alt="Ice on a rotating aero-engine fan and spinner" loading=lazy><figcaption>Ice on a rotating aero-engine fan and spinner</figcaption></figure><figure style="--ar:1.404"><img src="assets/img/t/dip-film.jpg" alt="DIP measurement of runback water-film thickness on an airfoil" loading=lazy><figcaption>DIP measurement of runback water-film thickness on an airfoil</figcaption></figure><figure style="--ar:1.431"><img src="assets/img/t/uav-instrumented.jpg" alt="Instrumented UAV for icing flights: Pitot tube, camera, humidity sensor" loading=lazy><figcaption>Instrumented UAV for icing flights: Pitot tube, camera, humidity sensor</figcaption></figure><figure style="--ar:1.400"><img src="assets/img/t/irt402.jpg" alt="Ice shape, NASA IRT run 402: model ensemble vs. repeat runs" loading=lazy><figcaption>Ice shape, NASA IRT run 402: model ensemble vs. repeat runs</figcaption></figure><figure style="--ar:1.401"><img src="assets/img/t/piv-propeller.jpg" alt="Phase-locked PIV vorticity behind an iced propeller blade" loading=lazy><figcaption>Phase-locked PIV vorticity behind an iced propeller blade</figcaption></figure><figure style="--ar:1.401"><img src="assets/img/t/hs-airfoil.jpg" alt="High-speed imaging of ice growing on an airfoil leading edge" loading=lazy><figcaption>High-speed imaging of ice growing on an airfoil leading edge</figcaption></figure><figure style="--ar:1.700"><img src="assets/img/t/engine-fan.jpg" alt="Ice on a rotating aero-engine fan and spinner" loading=lazy><figcaption>Ice on a rotating aero-engine fan and spinner</figcaption></figure><figure style="--ar:1.404"><img src="assets/img/t/dip-film.jpg" alt="DIP measurement of runback water-film thickness on an airfoil" loading=lazy><figcaption>DIP measurement of runback water-film thickness on an airfoil</figcaption></figure><figure style="--ar:1.431"><img src="assets/img/t/uav-instrumented.jpg" alt="Instrumented UAV for icing flights: Pitot tube, camera, humidity sensor" loading=lazy><figcaption>Instrumented UAV for icing flights: Pitot tube, camera, humidity sensor</figcaption></figure><figure style="--ar:1.400"><img src="assets/img/t/irt402.jpg" alt="Ice shape, NASA IRT run 402: model ensemble vs. repeat runs" loading=lazy><figcaption>Ice shape, NASA IRT run 402: model ensemble vs. repeat runs</figcaption></figure></div></div>
+  </div>
+</section>
+<div class="container stats-wrap"><div class="stats"><div class="stat"><div class="n">~200<small>TB</small></div><div class="l">aircraft-icing archive</div></div><div class="stat"><div class="n">20<small>yrs</small></div><div class="l">of tunnel and flight campaigns</div></div><div class="stat"><div class="n">50+<small></small></div><div class="l">data products inventoried by agents</div></div><div class="stat"><div class="n">68<small></small></div><div class="l">open-access papers read in the pilot</div></div><div class="stat"><div class="n">100+<small></small></div><div class="l">UAV flight missions, 40+ in icing</div></div><div class="stat"><div class="n">1.2<small>B</small></div><div class="l">control volumes in validated LES</div></div></div></div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Fresh on FROST</span><h2>What's new</h2><p>Recent results from the team that FROST is built on.</p></div>
+    <div class="news"><a class="news-card fade-in" href="ai.html#curation">
+      <div class="im"><img src="assets/img/t/scan-s1223.jpg" alt="Agents inventory the archive" loading=lazy></div>
+      <div class="bd"><div class="meta"><span class="badge" style="background:#8E5BD11a;color:#6a3cad">Agents</span><span>2026</span></div>
+      <h3>Agents inventory the archive</h3><p>In a pilot curation pass, LLM agents read 68 open-access papers, four slide decks, and three internal reports and drafted records for more than 50 data products. A curator checked every value.</p></div></a><a class="news-card fade-in" href="ai.html#physminer">
+      <div class="im"><img src="assets/img/t/physminer-vortices.jpg" alt="PhysMiner released" loading=lazy></div>
+      <div class="bd"><div class="meta"><span class="badge" style="background:#F08A241a;color:#a85508">Open source</span><span>Jul 2026</span></div>
+      <h3>PhysMiner released</h3><p>A multi-agent LLM framework for flow-physics analysis. On a periodic-hill benchmark it completed 5 of 5 end-to-end runs for US$3.89 each on average.</p></div></a><a class="news-card fade-in" href="datasets/irt-401-405.html">
+      <div class="im"><img src="assets/img/t/irt402.jpg" alt="NASA IRT 401–405, no fitted coefficients" loading=lazy></div>
+      <div class="bd"><div class="meta"><span class="badge" style="background:#00A0A01a;color:#00706f">Model</span><span>2026</span></div>
+      <h3>NASA IRT 401–405, no fitted coefficients</h3><p>An agent-developed ice-accretion model reproduces the five NASA reference runs with 0.9–2.1 mm mean thickness error.</p></div></a><a class="news-card fade-in" href="record-s1223.html">
+      <div class="im"><img src="assets/img/t/s1223-les-3d.jpg" alt="346 M unknowns on one GPU" loading=lazy></div>
+      <div class="bd"><div class="meta"><span class="badge" style="background:#2B6FE31a;color:#1d4fb0">Simulation</span><span>2026</span></div>
+      <h3>346 M unknowns on one GPU</h3><p>High-order LES of the rime-iced S1223 resolves the region below the wing that PIV cannot see.</p></div></a></div>
+  </div>
+</section>
+
+<section class="section section-ice">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">How FROST creates value</span><h2>One archive, four layers</h2>
+      <p>Measurements validate and harmonize simulations; simulations complete what experiments cannot see; both train generative models and agents, which answer questions no single campaign was designed to answer.</p></div>
+    <div class="layers"><div class="layer fade-in" style="--c:#2B6FE3">
+  <div class="lh"><span class="num">LAYER 01</span><h3>Legacy experiments</h3><span class="aims">Objective 1 · Aims 1.1–1.2</span><p style="font-size:14px;margin:10px 0 14px;opacity:.95">The only university-owned icing research tunnel in the U.S.; ~20 years, ~200 TB.</p><span class="verb">→ validate · harmonize</span></div>
+  <div class="imgs"><figure><img src="assets/img/t/irt-facility.jpg" alt="ISU Icing Research Tunnel" loading=lazy><figcaption>ISU Icing Research Tunnel</figcaption></figure><figure><img src="assets/img/t/irt-iced-wing.jpg" alt="Iced wing in the ISU-IRT" loading=lazy><figcaption>Iced wing in the ISU-IRT</figcaption></figure><figure><img src="assets/img/t/uav-iced.jpg" alt="Iced UAV after an icing flight" loading=lazy><figcaption>Iced UAV after an icing flight</figcaption></figure></div></div><div class="layer fade-in" style="--c:#00A0A0">
+  <div class="lh"><span class="num">LAYER 02</span><h3>Validated simulation</h3><span class="aims">Objective 1 · Aim 1.3</span><p style="font-size:14px;margin:10px 0 14px;opacity:.95">Complete what experiments cannot measure, inside measurement uncertainty.</p><span class="verb">→ augment · complete</span></div>
+  <div class="imgs"><figure><img src="assets/img/t/wmles-rime.jpg" alt="WMLES, rime-iced airfoil" loading=lazy><figcaption>WMLES, rime-iced airfoil</figcaption></figure><figure><img src="assets/img/t/crm65-surface-flow.jpg" alt="Surface flow, iced swept wing" loading=lazy><figcaption>Surface flow, iced swept wing</figcaption></figure><figure><img src="assets/img/t/wmles-stall.jpg" alt="Iced-airfoil stall (WMLES)" loading=lazy><figcaption>Iced-airfoil stall (WMLES)</figcaption></figure></div></div><div class="layer fade-in" style="--c:#8E5BD1">
+  <div class="lh"><span class="num">LAYER 03</span><h3>Generative AI + agents</h3><span class="aims">Objective 2 · Aims 2.1–2.2</span><p style="font-size:14px;margin:10px 0 14px;opacity:.95">Curate, simulate, analyze, and generate with a human signing off every release.</p><span class="verb">→ generate · discover</span></div>
+  <div class="imgs"><figure><img src="assets/img/t/physminer-arch.jpg" alt="PhysMiner agent pipeline" loading=lazy><figcaption>PhysMiner agent pipeline</figcaption></figure><figure><img src="assets/img/t/ice-model-fields.jpg" alt="Agent-built ice-model fields" loading=lazy><figcaption>Agent-built ice-model fields</figcaption></figure><figure><img src="assets/img/t/physminer-triple.jpg" alt="Agent-computed flow decomposition" loading=lazy><figcaption>Agent-computed flow decomposition</figcaption></figure></div></div><div class="layer fade-in" style="--c:#F08A24">
+  <div class="lh"><span class="num">LAYER 04</span><h3>Discovery + impact</h3><span class="aims">Objective 2 · Aim 2.3</span><p style="font-size:14px;margin:10px 0 14px;opacity:.95">Ice-aware UAV planning, in-flight ice detection, and a first data-driven UAV icing envelope.</p><span class="verb">→ safer all-weather flight</span></div>
+  <div class="imgs"><figure><img src="assets/img/t/uas-military.jpg" alt="All-weather UAS · USMC photo" loading=lazy><figcaption>All-weather UAS · USMC photo</figcaption></figure><figure><img src="assets/img/t/uav-trajectory.jpg" alt="Mission trajectory in icing" loading=lazy><figcaption>Mission trajectory in icing</figcaption></figure><figure><img src="assets/img/t/plasma-blade.jpg" alt="Plasma anti-icing on a rotor blade" loading=lazy><figcaption>Plasma anti-icing on a rotor blade</figcaption></figure></div></div>
+      <div class="layer-base fade-in"><b>Objective 3 · Governed, sustained community infrastructure</b>
+        <span class="chip">FAIR + Croissant metadata</span><span class="chip">W3C PROV lineage</span><span class="chip">SHA-256 per file</span><span class="chip">Access tiers</span><span class="chip">DataCite DOIs</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container feature">
+    <div class="mosaic fade-in">
+      <figure data-zoom="assets/img/scan-s1223.jpg" data-cap="3D-scanned ice on the S1223 UAV wing, suction and pressure sides"><img src="assets/img/t/scan-s1223.jpg" alt="3D-scanned ice on the S1223 UAV wing, suction and pressure sides" loading=lazy><figcaption>3D ice scan</figcaption></figure>
+      <figure class="contain" data-zoom="assets/img/piv-s1223.jpg" data-cap="PIV over the rime-iced S1223 replica; the shadow region below the wing is unmeasured"><img src="assets/img/t/piv-s1223.jpg" alt="PIV over the rime-iced S1223 replica; the shadow region below the wing is unmeasured" loading=lazy><figcaption>Replica PIV</figcaption></figure>
+      <figure data-zoom="assets/img/s1223-les-3d.jpg" data-cap="High-order GPU LES of the rime-iced S1223 (346 M unknowns)"><img src="assets/img/t/s1223-les-3d.jpg" alt="High-order GPU LES of the rime-iced S1223 (346 M unknowns)" loading=lazy><figcaption>ISU LES</figcaption></figure>
+    </div>
+    <div class="fade-in">
+      <span class="eyebrow">Featured record</span>
+      <h2 style="font-size:clamp(28px,3.2vw,40px);margin:14px 0 14px">One test case, five data products, one record</h2>
+      <p class="lead-p">Ice grown on an S1223 UAV wing was scanned, 3D-printed, and re-tested; two independent simulations used the same scan. FROST links them into one machine-readable, provenance-tracked record, and fills the region below the wing that PIV cannot see with validated simulation.</p>
+      <div class="record" style="margin:24px 0">
+        <div class="rh"><i style="background:#e8453c"></i><i style="background:#f0a824"></i><i style="background:#21a85c"></i><span>frost://icing/airfoil/S1223/rime/aoa00</span></div>
+<pre><span class="k">geometry  </span> S1223 UAV airfoil · c = 0.2 m · scan 150 µm
+<span class="k">icing     </span> 20 m/s · −15 °C · 0.5 g/m³ · 463 s · <span class="s">rime</span>
+<span class="k">test      </span> Re 2.65e5 · AoA 0/5° · Tu 3% <span class="c">← facility</span>
+<span class="k">fields    </span> ice.stl <span class="ok">✓</span> loads <span class="ok">✓</span> Cp[42] <span class="ok">✓</span> PIV[500] <span class="ok">✓</span>
+<span class="k">completed </span> lower-surface u, Cm <span class="c">← validated LES</span>
+<span class="k">provenance</span> sha256 · W3C PROV · CC-BY-4.0 · <span class="w">DOI at release</span></pre>
+      </div>
+      <a class="btn btn-primary" href="record-s1223.html">Open the record <svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section section-ice">
+  <div class="container coverage">
+    <div class="fade-in">
+      <span class="eyebrow">Archive coverage</span>
+      <h2 style="font-size:clamp(28px,3.2vw,40px);margin:14px 0 14px">The icing envelope, seen across geometries</h2>
+      <p class="lead-p">Each mark is a tunnel campaign condition from the 37 aircraft- and UAV-icing papers inventoried in the pilot curation pass. ISU-IRT campaigns appear in 25 of them since 2016.</p>
+      <p class="lead-p" style="margin:0">Gray dots mark where validated LES will augment the envelope around measured anchors (Aim 1.3), targeting at least four times more covered (T∞, LWC) cells per geometry family.</p>
+    </div>
+    <div class="chart-card fade-in">
+      <h3>Archive coverage of the icing envelope</h3>
+      <div class="sub">Tunnel and field conditions by test-article family. Dashed lines mark the rime and glaze reference isotherms.</div>
+      <div class="legend"><span><svg viewBox="0 0 14 14"><circle cx="7" cy="7" r="5.5" fill="#2a78d6"/></svg>Airfoils &amp; wings</span><span><svg viewBox="0 0 14 14"><polygon points="7,1.2 13,12 1,12" fill="#eb6834"/></svg>Rotating: propellers &amp; engine fans</span><span><svg viewBox="0 0 14 14"><rect x="2" y="2" width="10" height="10" rx="2" fill="#1baf7a"/></svg>Probes &amp; cables</span><span><svg viewBox="0 0 14 14"><polygon points="7,0.8 13.2,7 7,13.2 0.8,7" fill="#4a3aa7"/></svg>Field flights</span><span><svg viewBox="0 0 14 14"><circle cx="7" cy="7" r="2.6" fill="#c3cddb"/></svg>Planned LES augmentation</span></div>
+      <div class="chart" id="coverage-chart"></div>
+      <button class="table-toggle" data-table-toggle>Show data table</button>
+      <div id="coverage-table" hidden><table class="data-table"><thead><tr><th>Family</th><th>T∞ (°C)</th><th>LWC (g/m³)</th></tr></thead><tbody><tr><td>Airfoils &amp; wings</td><td>-8</td><td>1.1</td></tr><tr><td>Airfoils &amp; wings</td><td>-5</td><td>2.0</td></tr><tr><td>Airfoils &amp; wings</td><td>-15</td><td>1.0</td></tr><tr><td>Airfoils &amp; wings</td><td>-15</td><td>0.5</td></tr><tr><td>Airfoils &amp; wings</td><td>-8</td><td>2.5</td></tr><tr><td>Airfoils &amp; wings</td><td>-5</td><td>3.0</td></tr><tr><td>Airfoils &amp; wings</td><td>-5</td><td>4.0</td></tr><tr><td>Airfoils &amp; wings</td><td>-5</td><td>0.3</td></tr><tr><td>Airfoils &amp; wings</td><td>-5</td><td>1.5</td></tr><tr><td>Rotating: propellers &amp; engine fans · propeller</td><td>-5</td><td>0.5</td></tr><tr><td>Rotating: propellers &amp; engine fans · propeller</td><td>-5</td><td>1.0</td></tr><tr><td>Rotating: propellers &amp; engine fans · propeller</td><td>-5</td><td>2.0</td></tr><tr><td>Rotating: propellers &amp; engine fans · propeller</td><td>-15</td><td>0.5</td></tr><tr><td>Rotating: propellers &amp; engine fans · propeller</td><td>-15</td><td>1.0</td></tr><tr><td>Rotating: propellers &amp; engine fans · propeller</td><td>-15</td><td>2.0</td></tr><tr><td>Rotating: propellers &amp; engine fans · propeller</td><td>-10</td><td>1.0</td></tr><tr><td>Rotating: propellers &amp; engine fans · engine fan/spinner</td><td>-5</td><td>2.4</td></tr><tr><td>Rotating: propellers &amp; engine fans · engine fan/spinner</td><td>-10</td><td>1.1</td></tr><tr><td>Rotating: propellers &amp; engine fans · engine fan/spinner</td><td>-5</td><td>2.0</td></tr><tr><td>Rotating: propellers &amp; engine fans · engine fan/spinner</td><td>-15</td><td>0.5</td></tr><tr><td>Rotating: propellers &amp; engine fans · engine fan/spinner</td><td>-18</td><td>0.3</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-15</td><td>0.5</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-15</td><td>1.0</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-15</td><td>1.5</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-15</td><td>2.0</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-5</td><td>0.5</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-5</td><td>1.0</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-5</td><td>1.5</td></tr><tr><td>Probes &amp; cables · Pitot probe</td><td>-5</td><td>2.0</td></tr><tr><td>Probes &amp; cables · power/bridge cable</td><td>-15</td><td>1.0</td></tr><tr><td>Probes &amp; cables · power/bridge cable</td><td>-5</td><td>2.0</td></tr><tr><td>Field flights · natural cloud</td><td>-1.6</td><td>natural cloud</td></tr><tr><td>Field flights · natural cloud</td><td>-3.3</td><td>natural cloud</td></tr></tbody></table></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Data modalities</span><h2>Every instrument, one physical description</h2>
+      <p>The same icing physics measured by high-speed cameras, projected fringes, lasers, thermal cameras, holograms, load cells, and onboard sensors, harmonized into one similarity space.</p></div>
+    <div class="mods"><a class="mod fade-in" href="datasets.html?q=high-speed"><img src="assets/img/t/hs-airfoil.jpg" alt="High-speed video" loading=lazy><div class="t"><b>High-speed video</b><span>Up to 8,828 frames per trial</span></div></a><a class="mod fade-in" href="datasets.html?q=dip"><img src="assets/img/t/dip-film.jpg" alt="DIP film &amp; ice thickness" loading=lazy><div class="t"><b>DIP film &amp; ice thickness</b><span>Films, rivulets, ice</span></div></a><a class="mod fade-in" href="datasets.html?q=3d"><img src="assets/img/t/scan-airfoil.jpg" alt="3D ice scans" loading=lazy><div class="t"><b>3D ice scans</b><span>~150 µm laser scans</span></div></a><a class="mod fade-in" href="datasets.html?q=piv"><img src="assets/img/t/piv-propeller.jpg" alt="PIV / MTV flow fields" loading=lazy><div class="t"><b>PIV / MTV flow fields</b><span>&gt;1,000 pairs per phase</span></div></a><a class="mod fade-in" href="datasets.html?q=ir"><img src="assets/img/t/ir-plasma.jpg" alt="IR thermography" loading=lazy><div class="t"><b>IR thermography</b><span>Plasma and heater temperature maps</span></div></a><a class="mod fade-in" href="datasets.html?q=digital"><img src="assets/img/t/dih-droplets.jpg" alt="Digital inline holography" loading=lazy><div class="t"><b>Digital inline holography</b><span>5,400 holograms per case</span></div></a><a class="mod fade-in" href="datasets.html?q=molecular"><img src="assets/img/t/mtt-droplet.jpg" alt="Molecular tagging thermometry" loading=lazy><div class="t"><b>Molecular tagging thermometry</b><span>Temperature inside freezing droplets</span></div></a><a class="mod fade-in" href="datasets.html?q=loads"><img src="assets/img/t/cp-s1223.jpg" alt="Loads &amp; surface pressure" loading=lazy><div class="t"><b>Loads &amp; surface pressure</b><span>Lift, drag, thrust, Cp</span></div></a><a class="mod fade-in" href="datasets.html?q=uav"><img src="assets/img/t/uav-power.jpg" alt="UAV flight logs + video" loading=lazy><div class="t"><b>UAV flight logs + video</b><span>&gt;100 missions, &gt;40 iced</span></div></a><a class="mod fade-in" href="datasets.html?q=validated"><img src="assets/img/t/wmles-leading-edge.jpg" alt="Validated simulation" loading=lazy><div class="t"><b>Validated simulation</b><span>LES up to 1.2 B cells</span></div></a></div>
+  </div>
+</section>
+
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Organized once, served three ways</span><h2>For people, ML users, and AI agents</h2>
+      <p>Every record is served in open formats (HDF5/Zarr, STL/PLY, Parquet, MP4/TIFF) through a web portal, a Python API, and a Model Context Protocol server.</p></div>
+    <div class="ways" data-tabs>
+      <div class="way-list" role="tablist">
+        <button class="way" role="tab" aria-selected="true" aria-controls="p-portal"><span class="ic"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span><span><b>Web portal</b><span>Search by condition, modality, origin tag, and access tier; results ranked by similarity in the harmonized space.</span></span></button>
+        <button class="way" role="tab" aria-selected="false" aria-controls="p-python"><span class="ic"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 8-4 4 4 4M16 8l4 4-4 4M14 5l-4 14"/></svg></span><span><b>Python API</b><span>PyTorch and JAX loaders with FROST-Bench splits, so ML users never re-process raw data.</span></span></button>
+        <button class="way" role="tab" aria-selected="false" aria-controls="p-mcp"><span class="ic"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="8" width="16" height="11" rx="3"/><path d="M12 4v4M9 13h.01M15 13h.01M2 13v3M22 13v3"/></svg></span><span><b>MCP server for agents</b><span>Agents search, fetch, cite, and simulate records, built on the DAFoam MCP agents.</span></span></button>
+      </div>
+      <div>
+        <div class="panel active" id="p-portal">
+          <div class="portal-mock"><div class="pm-bar"><i style="background:#e8453c"></i><i style="background:#f0a824"></i><i style="background:#21a85c"></i><span>FROST portal · search</span></div>
+            <div class="pm-body"><div class="pm-search"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg> glaze ice · airfoil · LWC 1–2 g/m³ · IR + 3D scan</div>
+              <div class="pm-chips"><span class="chip">−15 to −5 °C</span><span class="chip">LWC 0.5–2 g/m³</span><span class="chip">modality: scan, IR</span><span class="chip">tag: measured</span><span class="chip">tier: Open</span></div>
+              <div class="pm-res"><figure><img src="assets/img/t/hs-airfoil.jpg" alt="High-speed video" loading=lazy><figcaption>High-speed video</figcaption></figure><figure><img src="assets/img/t/scan-airfoil.jpg" alt="3D ice scan" loading=lazy><figcaption>3D ice scan</figcaption></figure><figure><img src="assets/img/t/piv-propeller.jpg" alt="PIV" loading=lazy><figcaption>PIV</figcaption></figure></div></div></div>
+          <p style="margin-top:14px;font-size:14px;color:#8ea6c6">You are looking at the preview of the portal. <a href="datasets.html" style="color:#8fb8f5">Browse the catalog →</a></p>
+        </div>
+        <div class="panel" id="p-python"><div class="code"><div class="ch"><span>python</span><span class="planned">Planned interface · v0.5</span></div>
+<pre><span class="kw">import</span> frost
+
+ds = frost.<span class="fn">load</span>(<span class="st">"ice-shape"</span>, version=<span class="st">"1.0"</span>,
+                cond=<span class="fn">dict</span>(LWC=(<span class="st">0.5</span>, <span class="st">2.0</span>)),
+                tags=[<span class="st">"measured"</span>])
+loader = ds.<span class="fn">to_torch</span>(batch_size=<span class="st">32</span>)   <span class="cm"># or ds.to_jax()</span>
+bench  = frost.<span class="fn">bench</span>(<span class="st">"T2-piv-shadow"</span>)       <span class="cm"># held-out split</span></pre></div></div>
+        <div class="panel" id="p-mcp"><div class="code"><div class="ch"><span>mcp session</span><span class="planned">Planned interface · v0.5</span></div>
+<pre><span class="ag">agent</span> → frost.<span class="fn">search</span>(<span class="st">"rime S1223 PIV"</span>)
+<span class="fn">frost</span> → records with DOI, origin tag,
+          uncertainty, and PROV lineage
+<span class="ag">agent</span> → frost.<span class="fn">get</span>(id); frost.<span class="fn">cite</span>(id)
+<span class="ag">agent</span> → frost.<span class="fn">simulate</span>(id)   <span class="cm"># via DAFoam</span></pre></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Release roadmap</span><h2>From archive to community dataset</h2>
+      <p>Each release is gated by integrity checks and curator sign-off, versioned, and preserved as a DOI snapshot. Months count from project start.</p></div>
+    <div class="roadmap">
+      <div class="milestone now fade-in"><div class="pin"></div><span class="when">Today</span><h3>Preview</h3><p>Archive inventoried by agents; pilot records drafted and curator-checked; this preview portal.</p></div>
+      <div class="milestone fade-in" style="--c:#e8453c"><div class="pin"></div><span class="when">Month 9</span><h3>FROST v0.5</h3><p>The 25 pilot ISU-IRT campaigns and the S1223 and NASA IRT 401–405 benchmarks.</p></div>
+      <div class="milestone fade-in" style="--c:#2b6fe3"><div class="pin"></div><span class="when">Month 18</span><h3>FROST v1.0</h3><p>All ISU-IRT, rotor, and UAV flight campaigns since 2016, with validated simulation completions.</p></div>
+      <div class="milestone fade-in" style="--c:#8e5bd1"><div class="pin"></div><span class="when">Month 33</span><h3>FROST v2.0</h3><p>The full archive and the FROST-Gen generative benchmarks.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-ice">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Who it serves</span><h2>Six communities with a documented need</h2></div>
+    <div class="comms"><div class="comm fade-in"><img src="assets/img/t/wing-icing-photo.jpg" alt="Aircraft icing &amp; certification" loading=lazy><div><h3>Aircraft icing &amp; certification</h3><p>583 U.S. icing accidents and 819 deaths, 1982–2000; certification envelopes of 14 CFR Part 25 Appendices C and O.</p></div></div><div class="comm fade-in"><img src="assets/img/t/community-uas.jpg" alt="Uncrewed &amp; advanced air mobility" loading=lazy><div><h3>Uncrewed &amp; advanced air mobility</h3><p>837,513 FAA-registered drones, yet no UAV icing envelope exists.</p></div></div><div class="comm fade-in"><img src="assets/img/t/engine-fan.jpg" alt="Aero-engines &amp; rotorcraft" loading=lazy><div><h3>Aero-engines &amp; rotorcraft</h3><p>Fan, spinner, and ice-crystal icing that drive engine certification testing.</p></div></div><div class="comm fade-in"><img src="assets/img/t/cable-iced.jpg" alt="Power &amp; transport infrastructure" loading=lazy><div><h3>Power &amp; transport infrastructure</h3><p>Transmission conductors and bridge stay cables.</p></div></div><div class="comm fade-in"><img src="assets/img/t/community-cfd.jpg" alt="CFD &amp; multiphase modeling" loading=lazy><div><h3>CFD &amp; multiphase modeling</h3><p>Validation data for accretion, runback, droplet impact, and rough-wall turbulence.</p></div></div><div class="comm fade-in"><img src="assets/img/t/community-ai.jpg" alt="AI for science" loading=lazy><div><h3>AI for science</h3><p>A rare experiment-anchored multiphase benchmark with partial observations.</p></div></div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Team</span><h2>Four PIs, one record at a time</h2>
+      <p>Experiments, high-fidelity simulation, AI agents, and generative AI, with overlapping expertise that ties the layers together.</p></div>
+    <div class="team"><a class="pi fade-in" href="team.html#hu" style="--c:#2B6FE3;color:inherit">
+  <div class="ph"><img src="assets/img/people/hu.jpg" alt="Hui Hu" loading="lazy"></div>
+  <div class="bd"><span class="role">Principal Investigator</span><h3>Hui Hu</h3><span class="inst">Iowa State University</span><span class="focus">Icing experiments · the archive</span></div></a><a class="pi fade-in" href="team.html#jain" style="--c:#00A0A0;color:inherit">
+  <div class="ph"><img src="assets/img/people/jain.jpg" alt="Suhas S. Jain" loading="lazy"></div>
+  <div class="bd"><span class="role">Co-PI</span><h3>Suhas S. Jain</h3><span class="inst">Georgia Institute of Technology</span><span class="focus">High-fidelity simulation</span></div></a><a class="pi fade-in" href="team.html#he" style="--c:#F08A24;color:inherit">
+  <div class="ph"><img src="assets/img/people/he.jpg" alt="Ping He" loading="lazy"></div>
+  <div class="bd"><span class="role">Co-PI</span><h3>Ping He</h3><span class="inst">Iowa State University</span><span class="focus">Optimization, planning &amp; agents</span></div></a><a class="pi fade-in" href="team.html#gao" style="--c:#8E5BD1;color:inherit">
+  <div class="ph"><img src="assets/img/people/gao.jpg" alt="Han Gao" loading="lazy"></div>
+  <div class="bd"><span class="role">Co-PI</span><h3>Han Gao</h3><span class="inst">Iowa State University</span><span class="focus">Generative AI · data integrity</span></div></a></div>
+  </div>
+</section>
+
+<section class="section-tight" style="padding-bottom:104px">
+  <div class="container"><div class="cta-band">
+    <div><h2>Use FROST, or add to it</h2><p>Request early access to a collection, or bring your own icing data through the reviewed contribution path and earn a contributor DOI.</p></div>
+    <div class="ctas"><a class="btn btn-light" href="access.html#request">Request access</a><a class="btn btn-glass" href="access.html#contribute">Contribute data</a></div>
+  </div></div>
+</section>
+
+</main>
+
+<script>window.FROST_COVERAGE = {"series": [{"name": "Airfoils & wings", "shape": "circle", "color": "#2a78d6", "points": [[-8, 1.1], [-5, 2.0], [-15, 1.0], [-15, 0.5], [-8, 2.5], [-5, 3.0], [-5, 4.0], [-5, 0.3], [-5, 1.5]]}, {"name": "Rotating: propellers & engine fans", "shape": "triangle", "color": "#eb6834", "points": [[-5, 0.5, "propeller"], [-5, 1.0, "propeller"], [-5, 2.0, "propeller"], [-15, 0.5, "propeller"], [-15, 1.0, "propeller"], [-15, 2.0, "propeller"], [-10, 1.0, "propeller"], [-5, 2.4, "engine fan/spinner"], [-10, 1.1, "engine fan/spinner"], [-5, 2.0, "engine fan/spinner"], [-15, 0.5, "engine fan/spinner"], [-18, 0.3, "engine fan/spinner"]]}, {"name": "Probes & cables", "shape": "square", "color": "#1baf7a", "points": [[-15, 0.5, "Pitot probe"], [-15, 1.0, "Pitot probe"], [-15, 1.5, "Pitot probe"], [-15, 2.0, "Pitot probe"], [-5, 0.5, "Pitot probe"], [-5, 1.0, "Pitot probe"], [-5, 1.5, "Pitot probe"], [-5, 2.0, "Pitot probe"], [-15, 1.0, "power/bridge cable"], [-5, 2.0, "power/bridge cable"]]}, {"name": "Field flights", "shape": "diamond", "color": "#4a3aa7", "points": [[-1.6, null, "natural cloud"], [-3.3, null, "natural cloud"]]}], "plan": [[-19, 0.3], [-17, 0.3], [-13, 0.3], [-11, 0.3], [-9, 0.3], [-7, 0.3], [-3, 0.3], [-1, 0.3], [-19, 0.45], [-17, 0.45], [-13, 0.45], [-11, 0.45], [-9, 0.45], [-7, 0.45], [-3, 0.45], [-1, 0.45], [-19, 0.7], [-17, 0.7], [-13, 0.7], [-11, 0.7], [-9, 0.7], [-7, 0.7], [-3, 0.7], [-1, 0.7], [-19, 1.4], [-17, 1.4], [-13, 1.4], [-11, 1.4], [-9, 1.4], [-7, 1.4], [-3, 1.4], [-1, 1.4], [-19, 2.8], [-17, 2.8], [-13, 2.8], [-11, 2.8], [-9, 2.8], [-7, 2.8], [-3, 2.8], [-1, 2.8], [-19, 4.2], [-17, 4.2], [-13, 4.2], [-11, 4.2], [-9, 4.2], [-7, 4.2], [-3, 4.2], [-1, 4.2]]};</script><footer class="site-footer">
+  <div class="container">
+    <div class="foot">
+      <div>
+        <a class="brand" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgf)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">Fused Repository of Observations, Simulations, and Tests</span></span></a>
+        <p style="margin-top:18px;max-width:380px">An AI-ready, governed community dataset of aircraft icing, built from two decades of icing-tunnel experiments and flight-test campaigns linked to validated simulation.</p>
+        <p style="margin:0">Iowa State University · Georgia Institute of Technology</p>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="datasets.html">Datasets</a></li><li><a href="record-s1223.html">Example record</a></li>
+        <li><a href="benchmarks.html">FROST-Bench</a></li><li><a href="ai.html">AI &amp; Agents</a></li></ul></div>
+      <div><h4>Project</h4><ul>
+        <li><a href="team.html">Team</a></li><li><a href="publications.html">Publications</a></li>
+        <li><a href="software.html">Software</a></li><li><a href="access.html">Access &amp; governance</a></li></ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="mailto:hgao1@iastate.edu">hgao1@iastate.edu</a></li>
+        <li><a href="access.html#request">Request data access</a></li>
+        <li><a href="access.html#contribute">Contribute data</a></li></ul></div>
+    </div>
+    <div class="fine"><span>Preview build · October 2026. Images are from the team's own archives and publications unless credited otherwise.</span><span>Data licenses: CC-BY-4.0 for Open-tier releases · code under OSI licenses</span></div>
+  </div>
+</footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="x" aria-label="Close"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><button class="prev" aria-label="Previous"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><button class="next" aria-label="Next"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+</div>
+<script src="assets/js/frost.js"></script>
+</body>
+</html>

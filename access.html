@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Access &amp; governance · FROST</title>
+<meta name="description" content="Access tiers, integrity, governance, and how to request or contribute FROST data.">
+<meta property="og:title" content="Access &amp; governance · FROST">
+<meta property="og:description" content="Access tiers, integrity, governance, and how to request or contribute FROST data.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg viewBox='0 0 40 40' aria-hidden='true'%3E%3Cdefs%3E%3ClinearGradient id='lgf' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%235b9dff'/%3E%3Cstop offset='.55' stop-color='%232b6fe3'/%3E%3Cstop offset='1' stop-color='%2300a6a6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='url(%23lgf)'/%3E%3Cpath d='M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z' fill='none' stroke='rgba(255,255,255,.35)' stroke-width='1'/%3E%3Cg stroke='%23fff' stroke-width='2.1' stroke-linecap='round' stroke-linejoin='round' fill='none'%3E%3Cpath d='M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5'/%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3Cg transform='rotate(60 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3Cg transform='rotate(120 20 20)'%3E%3Cpath d='M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/frost.css">
+</head>
+<body data-dark-hero>
+<div class="banner"><span class="dot"></span><strong>Preview of the FROST portal.</strong> Records are in curation; the first public release is FROST v0.5. Until then, the team shares data on request.</div>
+<header class="site-header">
+  <div class="container bar">
+    <a class="brand" href="index.html" aria-label="FROST home"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgh" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgh)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">AI-ready aircraft icing data</span></span></a>
+    <nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="datasets.html">Datasets</a><a href="benchmarks.html">FROST-Bench</a><a href="ai.html">AI &amp; Agents</a><a href="software.html">Software</a><a href="publications.html">Publications</a><a href="team.html">Team</a><a href="access.html" aria-current=page>Access</a></nav>
+    <a class="btn btn-primary btn-sm header-cta" href="access.html#request">Request access</a>
+    <button class="menu-btn" aria-label="Menu" aria-expanded="false"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<main>
+<section class="page-hero"><div class="bgimg" style="background-image:url(assets/img/irt-iced-wing.jpg)"></div>
+  <div class="container">
+    
+    <span class="eyebrow">Access & governance</span>
+    <h1>Open by default, governed by design</h1>
+    <p>Integrity is a property of every record, not just of the repository. Every value carries its lineage and an origin tag, and every release is gated, signed, and DOI'd.</p>
+  </div>
+</section>
+<section class="section">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Access tiers</span><h2>Who can access what</h2>
+      <p>Before any data enter FROST, ISU's export-control office screens them against the EAR and ITAR. Most of the archive is fundamental research already published in the open literature and is expected to enter the Open tier.</p></div>
+    <div class="tiers">
+      <div class="tier fade-in" style="--c:#21a85c"><span class="who">Anyone · no login</span><h3>Open</h3><ul><li>CC-BY-4.0</li><li>Fundamental research, published or publishable by the team</li><li>Web portal, Python API, MCP server</li></ul></div>
+      <div class="tier fade-in" style="--c:#2b6fe3"><span class="who">ORCID login</span><h3>Registered</h3><ul><li>Large raw imagery and attribution-tracked data</li><li>Usage logged for credit and reporting</li><li>Opens with FROST v0.5</li></ul></div>
+      <div class="tier fade-in" style="--c:#e8453c"><span class="who">Approved request</span><h3><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg> Controlled</h3><ul><li>Sponsor and industry flight-test data</li><li>Approved, logged, rate-limited</li><li>No bulk export</li></ul></div>
+    </div>
+  </div>
+</section>
+<section class="section section-ice">
+  <div class="container">
+    <div class="section-head"><span class="eyebrow">Integrity</span><h2>Every value carries its lineage and origin</h2>
+      <p>Every file is SHA-256 hashed at ingest. Every derived product carries a W3C PROV lineage to the raw files, code, solver settings, agent prompts and models, and curator decisions behind it. AI pipelines can never silently train on model output as if it were measurement.</p></div>
+    <div class="gates" style="margin-bottom:26px"><div class="gate" style="background:#2b6fe3"><b>1 Ingest</b><span>SHA-256 hash</span></div><div class="gate" style="background:#2b6fe3"><b>2 Curate</b><span>agents, extractors</span></div><div class="gate" style="background:#00a0a0"><b>3 Check</b><span>physics, similarity</span></div><div class="gate" style="background:#8e5bd1"><b>4 Review</b><span>curator sign-off</span></div><div class="gate" style="background:#1e3557"><b>5 Release</b><span>signed, DOI</span></div></div>
+    <div class="tags4"><div class="tag4" style="border-top:4px solid #2b6fe3"><code style="color:#2b6fe3">measured</code><p>Raw or processed measurement, hash-locked, with facility, instrument, and uncertainty.</p></div><div class="tag4" style="border-top:4px solid #00a0a0"><code style="color:#00a0a0">derived</code><p>Computed from measurements, such as features extracted from video or scans.</p></div><div class="tag4" style="border-top:4px solid #8e5bd1"><code style="color:#8e5bd1">synthetic-validated</code><p>Simulation that passed the validation gate, with its validation error attached.</p></div><div class="tag4" style="border-top:4px solid #f08a24"><code style="color:#f08a24">generated</code><p>Model output; released only as labeled benchmarks, never used as truth.</p></div></div>
+    <div class="planned-record" style="margin-top:22px"><span class="k">prov:</span> frost:cht/s43 wasDerivedFrom frost:scan/s43; wasGeneratedBy cht-les@2.1
+<span class="k">tag:</span> synthetic-validated   <span class="k">err:</span> ±1.4 K vs. IR   <span class="k">sha256:</span> 9f2c…e41   <span class="k">lic:</span> CC-BY-4.0</div>
+  </div>
+</section>
+<section class="section">
+  <div class="container split" style="align-items:start">
+    <div>
+      <span class="eyebrow">Policies</span>
+      <h2 style="font-size:clamp(28px,3vw,38px);margin:14px 0 16px">Written, public, and enforced</h2>
+      <ul style="padding-left:20px;color:var(--ink-2);line-height:1.8">
+        <li><b>Licensing:</b> CC-BY-4.0 for data; an OSI license for code.</li>
+        <li><b>Citation and credit:</b> dataset DOIs and CRediT roles; contributors earn authorship on dataset descriptors.</li>
+        <li><b>Embargo:</b> at most 12 months for contributors' unpublished work.</li>
+        <li><b>Retirement:</b> a superseded or erroneous record is deprecated with a tombstone that keeps its DOI resolvable and states the reason. It is never silently deleted.</li>
+        <li><b>Privacy:</b> no human-subjects data; incidental faces and plates in field imagery are blurred.</li>
+        <li><b>Audit:</b> an annual external audit samples 5% of records and must find zero untagged synthetic values.</li>
+      </ul>
+    </div>
+    <div id="contribute">
+      <span class="eyebrow">Contribute</span>
+      <h2 style="font-size:clamp(28px,3vw,38px);margin:14px 0 16px">Bring your icing data</h2>
+      <p class="lead-p">Outside groups contribute through a documented path, with a median review time under 30 days.</p>
+      <div class="steps" style="grid-template-columns:1fr">
+        <div class="step"><b>Submit</b><p>A package with Croissant metadata and a FROST datasheet.</p></div>
+        <div class="step"><b>Automated checks</b><p>Format, completeness, physics consistency, and duplicate detection by the readiness and review agents.</p></div>
+        <div class="step"><b>Quarantine</b><p>Held apart until reviewed, so poisoning and mislabeling cannot reach a release.</p></div>
+        <div class="step"><b>Expert review</b><p>By the Data Curation Board.</p></div>
+        <div class="step"><b>Release with DOI credit</b><p>A contributor DOI and authorship on the dataset descriptor.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="section section-ice" id="request">
+  <div class="container split" style="align-items:start">
+    <div>
+      <span class="eyebrow">Request access</span>
+      <h2 style="font-size:clamp(28px,3vw,38px);margin:14px 0 16px">Get data before the first release</h2>
+      <p class="lead-p">Registration opens with FROST v0.5. Until then, the team shares data on request. Tell us what you need and how you will use it; the form opens an email to the team.</p>
+      <p style="color:var(--ink-3);font-size:14.5px">Or write directly to <a href="mailto:hgao1@iastate.edu">hgao1@iastate.edu</a>.</p>
+    </div>
+    <form class="form card" id="access-form" data-to="hgao1@iastate.edu" style="padding:24px">
+      <label>Name<input name="name" required autocomplete="name"></label>
+      <label>Email<input name="email" type="email" required autocomplete="email"></label>
+      <label class="full">Affiliation<input name="aff" autocomplete="organization"></label>
+      <label>Interested in<select name="tier"><option>Open-tier data</option><option>Registered-tier raw imagery</option><option>Benchmarks (FROST-Bench)</option><option>Contributing data</option></select></label>
+      <label>Collection<select name="coll"><option value="">Any</option><option value="tunnel">ISU-IRT tunnel archive</option><option value="rotor">Rotor &amp; specialty experiments</option><option value="field">Field campaigns</option><option value="les">Iced-aircraft LES</option><option value="isusim">ISU simulations</option><option value="external">External records to link</option></select></label>
+      <label class="full">Intended use<textarea name="use" placeholder="Research question, model, or course"></textarea></label>
+      <div class="full"><button class="btn btn-primary" type="submit"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg> Send request</button></div>
+    </form>
+  </div>
+</section>
+<script>(function(){var p=new URLSearchParams(location.search).get("coll");var s=document.querySelector('select[name=coll]');if(p&&s)s.value=p;})();</script>
+</main>
+<footer class="site-footer">
+  <div class="container">
+    <div class="foot">
+      <div>
+        <a class="brand" href="index.html"><svg viewBox="0 0 40 40" aria-hidden="true"><defs><linearGradient id="lgf" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9dff"/><stop offset=".55" stop-color="#2b6fe3"/><stop offset="1" stop-color="#00a6a6"/></linearGradient></defs><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="url(#lgf)"/><path d="M20 1.8 35.8 10.9v18.2L20 38.2 4.2 29.1V10.9z" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/><g stroke="#fff" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round" fill="none"><path d="M20 8.5v23M10 14.25l20 11.5M30 14.25l-20 11.5"/><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/><g transform="rotate(60 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g><g transform="rotate(120 20 20)"><path d="M17.2 11.2 20 13.4l2.8-2.2M17.2 28.8 20 26.6l2.8 2.2"/></g></g></svg><span><span class="wm">FROST</span><span class="sub">Fused Repository of Observations, Simulations, and Tests</span></span></a>
+        <p style="margin-top:18px;max-width:380px">An AI-ready, governed community dataset of aircraft icing, built from two decades of icing-tunnel experiments and flight-test campaigns linked to validated simulation.</p>
+        <p style="margin:0">Iowa State University · Georgia Institute of Technology</p>
+      </div>
+      <div><h4>Explore</h4><ul>
+        <li><a href="datasets.html">Datasets</a></li><li><a href="record-s1223.html">Example record</a></li>
+        <li><a href="benchmarks.html">FROST-Bench</a></li><li><a href="ai.html">AI &amp; Agents</a></li></ul></div>
+      <div><h4>Project</h4><ul>
+        <li><a href="team.html">Team</a></li><li><a href="publications.html">Publications</a></li>
+        <li><a href="software.html">Software</a></li><li><a href="access.html">Access &amp; governance</a></li></ul></div>
+      <div><h4>Contact</h4><ul>
+        <li><a href="mailto:hgao1@iastate.edu">hgao1@iastate.edu</a></li>
+        <li><a href="access.html#request">Request data access</a></li>
+        <li><a href="access.html#contribute">Contribute data</a></li></ul></div>
+    </div>
+    <div class="fine"><span>Preview build · October 2026. Images are from the team's own archives and publications unless credited otherwise.</span><span>Data licenses: CC-BY-4.0 for Open-tier releases · code under OSI licenses</span></div>
+  </div>
+</footer>
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+  <button class="x" aria-label="Close"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><button class="prev" aria-label="Previous"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m15 6-6 6 6 6"/></svg></button><button class="next" aria-label="Next"><svg class="" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></button>
+  <figure><img alt=""><figcaption></figcaption></figure>
+</div>
+<script src="assets/js/frost.js"></script>
+</body>
+</html>
