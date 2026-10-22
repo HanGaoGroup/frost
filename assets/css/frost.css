@@ -697,3 +697,6 @@ select.sort { border: 1px solid var(--line-2); border-radius: 9px; padding: 8px 
   .mosaic figure:first-child { grid-row: auto; grid-column: span 2; aspect-ratio: 16/10; }
   .mosaic figure { aspect-ratio: 4/3; }
 }
+
+.product .im.noimg { display: grid; place-items: center; align-content: center; gap: 8px; color: #8ea6c6; background: radial-gradient(300px 160px at 30% 20%, rgba(0,160,160,.25), transparent 60%), var(--navy-800); font-size: 12.5px; }
+.product .im.noimg svg { width: 40px; height: 40px; opacity: .7; }

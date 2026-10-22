@@ -251,7 +251,13 @@ CAPTIONS.update({
     "propeller-glaze": "Glaze ice on a UAV propeller",
     "engine-fan": "Ice on a rotating aero-engine fan and spinner",
     "cable-iced": "Scanned ice on a power-transmission conductor",
-    "uav-iced": "Iced UAV after an icing flight (1.8 m span)",
+    "uav-cyaere-flight": "ISU-CyAerE UAV flying in a glaze-icing condition",
+    "uav-ice-collage": "In-flight ice on the UAV: runback and leading-edge ice on the wing, ice-blocked pressure holes, ice horns, and ice shed from the propeller",
+    "uav-quadcopter": "Rotary-wing UAV used in the in-flight icing tests",
+    "uav-power-curves": "Power consumption in a calm flight vs. an icing flight: ascent, loiter, descent",
+    "uav-iced-prop-model": "Clean and iced UAV propeller models from the rotary-wing icing tests",
+    "uav-wing-scan": "3D scan of wing ice with sectional ice profiles",
+    "uav-motor-snow": "UAV propeller and motor in the field",
     "uav-instrumented": "Instrumented UAV for icing flights: Pitot tube, camera, humidity sensor",
     "uav-inflight-ice": "Ice on the wing and vertical stabilizer after an icing flight",
     "uav-power": "UAV power draw in a mission with in-flight icing vs. one without",
@@ -270,7 +276,6 @@ CAPTIONS.update({
     "wmles-roughness": "Flow over leading-edge ice roughness (LES)",
     "s1223-les-fields": "High-order LES of the rime-iced S1223: instantaneous fields",
     "s1223-les-mean": "High-order LES: mean velocity over the rime-iced S1223",
-    "s1223-rans": "External RANS of a scanned S1223 shape",
     "s1223-les-3d": "High-order GPU LES of the rime-iced S1223 (346 M unknowns)",
     "irt402": "Ice shape, NASA IRT run 402: model ensemble vs. repeat runs",
     "irt403": "Ice shape, NASA IRT run 403: model ensemble vs. repeat runs",
@@ -284,8 +289,6 @@ CAPTIONS.update({
     "physminer-iddes": "IDDES of the glaze-iced airfoil",
     "convlstm-exp": "DIP measurement of runback film",
     "convlstm-pred": "ConvLSTM forecast of the same film",
-    "uas-military": "Military UAS in cold weather. Photo: U.S. Marine Corps (public domain)",
-    "community-uas": "Uncrewed aircraft. Photo: NASA (public domain)",
     "outreach-reu": "Undergraduates in the NSF LAUNCH-UAS REU program present their research (2022)",
     "outreach-lab": "Graduate students curate and use icing data in the ISU-IRT",
 })
@@ -329,7 +332,7 @@ def src_item(k):
 def build_home():
     wall_cols = [
         ["wmles-leading-edge", "rotor-ice-sequence", "scan-s1223", "irt-facility", "plasma-glow", "physminer-vortices"],
-        ["s1223-les-3d", "uav-iced", "cht-les", "ir-plasma", "scan-airfoil", "crm65-surface-flow"],
+        ["s1223-les-3d", "uav-cyaere-flight", "cht-les", "ir-plasma", "scan-airfoil", "crm65-surface-flow"],
         ["piv-propeller", "hs-airfoil", "engine-fan", "dip-film", "uav-instrumented", "irt402"],
     ]
     cols = ""
@@ -352,13 +355,13 @@ def build_home():
 
     layers = [
         ("01", "exp", "Legacy experiments", "Objective 1 · Aims 1.1–1.2", "The only university-owned icing research tunnel in the U.S.; ~20 years, ~200 TB.", "validate · harmonize",
-         [("irt-facility", "ISU Icing Research Tunnel"), ("irt-iced-wing", "Iced wing in the ISU-IRT"), ("uav-iced", "Iced UAV after an icing flight")]),
+         [("irt-facility", "ISU Icing Research Tunnel"), ("irt-iced-wing", "Iced wing in the ISU-IRT"), ("uav-cyaere-flight", "ISU-CyAerE flying in glaze icing")]),
         ("02", "cfd", "Validated simulation", "Objective 1 · Aim 1.3", "Complete what experiments cannot measure, inside measurement uncertainty.", "augment · complete",
          [("wmles-rime", "WMLES, rime-iced airfoil"), ("crm65-surface-flow", "Surface flow, iced swept wing"), ("wmles-stall", "Iced-airfoil stall (WMLES)")]),
         ("03", "gai", "Generative AI + agents", "Objective 2 · Aims 2.1–2.2", "Curate, simulate, analyze, and generate with a human signing off every release.", "generate · discover",
          [("physminer-arch", "PhysMiner agent pipeline"), ("ice-model-fields", "Agent-built ice-model fields"), ("physminer-triple", "Agent-computed flow decomposition")]),
         ("04", "app", "Discovery + impact", "Objective 2 · Aim 2.3", "Ice-aware UAV planning, in-flight ice detection, and a first data-driven UAV icing envelope.", "safer all-weather flight",
-         [("uas-military", "All-weather UAS · USMC photo"), ("uav-trajectory", "Mission trajectory in icing"), ("plasma-blade", "Plasma anti-icing on a rotor blade")]),
+         [("uav-quadcopter", "Rotary-wing UAV for icing flights"), ("uav-trajectory", "Mission trajectory in icing"), ("plasma-blade", "Plasma anti-icing on a rotor blade")]),
     ]
     layers_html = ""
     for num, k, name, obj, txt, verb, ims in layers:
@@ -701,10 +704,10 @@ def build_record():
         ("1", "exp", "ISU-IRT icing run + 3D scan", "irt-layout", "S1223, c = 200 mm, b = 400 mm; ice laser-scanned to an STL."),
         ("2", "exp", "Replica loads · Cp · PIV", "piv-s1223", "Re = 2.65×10⁵, AoA 0° and 5°; load cell, 42 taps, 500 PIV pairs per case."),
         ("3", "exp", "Surface pressure", "cp-s1223", "Clean vs. rime-iced pressure distributions from the 3D-printed replica."),
-        ("4", "cfd", "External RANS", "s1223-rans", "RANS of every scan, 7.9–11.8 M cells, under 1 h per case (University of Tokyo)."),
+        ("4", "cfd", "External RANS", None, "RANS of every scan, 7.9–11.8 M cells, under 1 h per case (University of Tokyo)."),
         ("5", "gai", "ISU wall-resolved LES", "s1223-les-3d", "346 M unknowns on one GPU, filling the region PIV cannot see."),
     ]
-    ph = "".join(f"""<div class="product fade-in" style="--c:{LAYER_HEX[k]}"><div class="im" data-zoom="{{R}}assets/img/{n}.jpg" data-cap="{E(cap(n))}">{img(n, cap(n))}</div>
+    ph = "".join(f"""<div class="product fade-in" style="--c:{LAYER_HEX[k]}">{(f'<div class="im" data-zoom="{{R}}assets/img/{n}.jpg" data-cap="{E(cap(n))}">' + img(n, cap(n)) + '</div>') if n else ('<div class="im noimg">' + icon("db") + '<span>Linked external record</span></div>')}
   <div class="bd"><span class="n">PRODUCT {i}</span><h3>{E(t)}</h3>{E(s)}</div></div>""" for i, k, t, n, s in prods)
     body = page_hero("Featured record", "One test case, five data products, one FROST record",
                      "Rime and glaze ice grown on an S1223 UAV wing in the ISU-IRT, followed through every product it has generated, and linked into a single machine-readable record.",

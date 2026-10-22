@@ -89,7 +89,7 @@ COLLECTIONS = [
      "content": "UAV propellers at 2,500–4,000 rpm, engine spinners and fans, ice-crystal, rain-erosion, and freezing-rain rigs.",
      "scale": "4 propeller and 4 engine geometries; IWC to 10 g/m³",
      "today": "On request", "frost": "v1.0"},
-    {"id": "field", "name": "Field campaigns", "holder": "Hu", "layer": "exp", "img": "uav-iced",
+    {"id": "field", "name": "Field campaigns", "holder": "Hu", "layer": "exp", "img": "uav-cyaere-flight",
      "content": "Fixed-wing and quadcopter UAV icing flights: GPS, airspeed, power, vibration, onboard video, and post-flight 3D ice scans.",
      "scale": ">100 missions, >40 in-flight icing events",
      "today": "Partly online", "frost": "v1.0"},
@@ -265,7 +265,7 @@ DATASETS = [
         "summary": "Fixed-wing and quadcopter UAVs flown into natural icing. In one mission the aircraft drew over 80% more power in an icing loiter while its Pitot ports iced shut.",
         "facts": [("Missions", ">100, with >40 in-flight icing events"),
                   ("Signals", "GPS, airspeed, power, vibration, onboard video, post-flight 3D ice scans")],
-        "images": ["uav-iced", "uav-instrumented", "uav-power", "uav-inflight-ice", "uav-trajectory"],
+        "images": ["uav-cyaere-flight", "uav-instrumented", "uav-ice-collage", "uav-power-curves", "uav-power", "uav-trajectory", "uav-quadcopter", "uav-iced-prop-model", "uav-wing-scan"],
         "sources": ["han2023flight"],
     },
     {
@@ -370,7 +370,7 @@ DATASETS = [
         "modalities": ["RANS fields"],
         "summary": "An external RANS of each S1223 scan, linked to the same FROST record as the tunnel run and the ISU LES.",
         "facts": [("Mesh", "7.9–11.8 M cells"), ("Cost", "<1 h per case")],
-        "images": ["s1223-rans"],
+        "images": [],
         "sources": [],
         "record": "record-s1223.html",
     },
@@ -430,7 +430,7 @@ MODALITIES = [
 
 COMMUNITIES = [
     ("Aircraft icing & certification", "583 U.S. icing accidents and 819 deaths, 1982–2000; certification envelopes of 14 CFR Part 25 Appendices C and O.", "wing-icing-photo"),
-    ("Uncrewed & advanced air mobility", "837,513 FAA-registered drones, yet no UAV icing envelope exists.", "community-uas"),
+    ("Uncrewed & advanced air mobility", "837,513 FAA-registered drones, yet no UAV icing envelope exists.", "uav-cyaere-flight"),
     ("Aero-engines & rotorcraft", "Fan, spinner, and ice-crystal icing that drive engine certification testing.", "engine-fan"),
     ("Power & transport infrastructure", "Transmission conductors and bridge stay cables.", "cable-iced"),
     ("CFD & multiphase modeling", "Validation data for accretion, runback, droplet impact, and rough-wall turbulence.", "community-cfd"),
