@@ -371,7 +371,7 @@ def build_home():
                    for t, s, n in C.MODALITIES)
     comms = "".join(f'<div class="comm fade-in">{img(n, t)}<div><h3>{E(t)}</h3><p>{E(s)}</p></div></div>' for t, s, n in C.COMMUNITIES)
     team = "".join(f"""<a class="pi fade-in" href="{{R}}team.html#{p['id']}" style="--c:{LAYER_HEX[p['layer']]};color:inherit">
-  <div class="ph"><img src="{{R}}assets/img/people/{p['id']}.jpg" alt="{E(p['name'])}" loading="lazy"></div>
+  <div class="ph">{img(p['img'], cap(p['img']))}</div>
   <div class="bd"><span class="role">{E(p['role'])}</span><h3>{E(p['name'])}</h3><span class="inst">{E(p['inst'])}</span><span class="focus">{E(p['focus'])}</span></div></a>""" for p in C.PEOPLE)
 
     cov = {
@@ -986,7 +986,7 @@ def build_team():
         leads = "".join(f"<li>{E(x)}</li>" for x in p["leads"])
         col = LAYER_HEX[p["layer"]]
         cards += f"""<article class="card fade-in" id="{p['id']}" style="display:grid;grid-template-columns:220px 1fr;gap:28px;padding:24px;border-top:5px solid {col}">
-  <img src="assets/img/people/{p['id']}.jpg" alt="{E(p['name'])}" style="width:220px;height:220px;object-fit:cover;border-radius:14px">
+  <img src="assets/img/t/{p['img']}.jpg" alt="{E(cap(p['img']))}" style="width:220px;height:220px;object-fit:cover;border-radius:14px">
   <div><span style="font:600 12px/1 var(--font-body);letter-spacing:.08em;text-transform:uppercase;color:{col}">{E(p['role'])} · {E(p['focus'])}</span>
     <h2 style="font-size:30px;margin:8px 0 4px">{E(p['name'])}</h2>
     <div style="color:var(--ink-3);font-size:15px">{E(p['title'])} · {E(p['inst'])}</div>

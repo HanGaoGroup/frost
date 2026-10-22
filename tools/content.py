@@ -31,7 +31,7 @@ LAYERS = {
 
 PEOPLE = [
     {
-        "id": "hu", "name": "Hui Hu", "role": "Principal Investigator", "inst": "Iowa State University",
+        "id": "hu", "img": "irt-iced-wing", "name": "Hui Hu", "role": "Principal Investigator", "inst": "Iowa State University",
         "layer": "exp", "focus": "Icing experiments · the archive",
         "title": "Anson Marston Distinguished Professor in Engineering and Martin C. Jischke Professor in Aerospace Engineering",
         "lab": ("Aircraft Icing Physics & Anti-/De-icing Technology Laboratory", "https://www.aere.iastate.edu/icing/"),
@@ -43,7 +43,7 @@ PEOPLE = [
         "leads": ["Aim 1.1 Feature extraction and metadata", "Aim 1.2 Linkage and harmonization (co-lead)", "Aim 3.2 Governance and contribution"],
     },
     {
-        "id": "jain", "name": "Suhas S. Jain", "role": "Co-PI", "inst": "Georgia Institute of Technology",
+        "id": "jain", "img": "wmles-rime", "name": "Suhas S. Jain", "role": "Co-PI", "inst": "Georgia Institute of Technology",
         "layer": "cfd", "focus": "High-fidelity simulation",
         "title": "Assistant Professor of Mechanical Engineering (Aerospace Engineering by courtesy); Director, Center for Multiphase Flow Research",
         "lab": ("Flow Physics and Computational Science Lab", "https://flow.me.gatech.edu/"),
@@ -55,7 +55,7 @@ PEOPLE = [
         "leads": ["Aim 1.3 Validated-simulation completion and augmentation", "Discovery campaigns Q1–Q2"],
     },
     {
-        "id": "he", "name": "Ping He", "role": "Co-PI", "inst": "Iowa State University",
+        "id": "he", "img": "physminer-vortices", "name": "Ping He", "role": "Co-PI", "inst": "Iowa State University",
         "layer": "app", "focus": "Optimization, planning & agents",
         "title": "Assistant Professor of Aerospace Engineering",
         "lab": ("iDesign Lab", "https://idesign-lab.github.io/"),
@@ -67,7 +67,7 @@ PEOPLE = [
         "leads": ["Aim 2.1 Agentic data pipelines", "Aim 2.3 Discovery and applications", "Aim 3.3 Availability and adoption"],
     },
     {
-        "id": "gao", "name": "Han Gao", "role": "Co-PI", "inst": "Iowa State University",
+        "id": "gao", "img": "s1223-les-3d", "name": "Han Gao", "role": "Co-PI", "inst": "Iowa State University",
         "layer": "gai", "focus": "Generative AI · data integrity",
         "title": "Assistant Professor of Aerospace Engineering",
         "lab": ("Homepage", "https://gaohan1234.github.io/"),
