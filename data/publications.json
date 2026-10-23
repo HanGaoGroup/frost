@@ -55,7 +55,8 @@
   "venue": "AIAA SCITECH 2026 Forum",
   "doi": "10.2514/6.2026-0683",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics"
@@ -288,7 +289,8 @@
   "venue": "AIAA Journal",
   "doi": "10.2514/1.J067128",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -638,7 +640,8 @@
   "venue": "Physical Review Fluids",
   "doi": "10.1103/fkg4-y3vf",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -684,7 +687,8 @@
   "venue": "Journal of Aircraft",
   "doi": "10.2514/1.C038146",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -917,7 +921,8 @@
   "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
   "doi": "10.2514/6.2024-4162",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -933,7 +938,8 @@
   "venue": "AIAA SCITECH 2024 Forum",
   "doi": "10.2514/6.2024-1336",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -949,7 +955,8 @@
   "venue": "Aerospace Science and Technology",
   "doi": "10.1016/j.ast.2024.108957",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -1013,7 +1020,8 @@
   "venue": "AIAA AVIATION FORUM AND ASCEND 2024",
   "doi": "10.2514/6.2024-4001",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -1046,7 +1054,8 @@
   "venue": "SAE International Journal of Advances and Current Practices in Mobility",
   "doi": "10.4271/2023-01-1454",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -1170,7 +1179,8 @@
   "venue": "Journal of Computational Physics",
   "doi": "10.1016/j.jcp.2022.111866",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "LES & multiphase CFD"
@@ -1279,7 +1289,8 @@
   "venue": "SAE Technical Paper Series",
   "doi": "10.4271/2023-01-1466",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "LES & multiphase CFD"
@@ -1294,7 +1305,8 @@
   "venue": "SAE Technical Paper Series",
   "doi": "10.4271/2023-01-1483",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "LES & multiphase CFD"
@@ -1357,7 +1369,8 @@
   "venue": "Journal of Computational Physics",
   "doi": "10.1016/j.jcp.2022.111307",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "LES & multiphase CFD"
@@ -1494,7 +1507,8 @@
   "venue": "Annual Research Briefs 2022",
   "doi": "",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "Icing physics",
@@ -1727,7 +1741,8 @@
   "venue": "Journal of Computational Physics",
   "doi": "10.1016/j.jcp.2020.109606",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "LES & multiphase CFD"
@@ -2142,7 +2157,8 @@
   "venue": "Physical Review Fluids",
   "doi": "10.1103/PhysRevFluids.4.100508",
   "pis": [
-   "Jain"
+   "Jain",
+   "Moin"
   ],
   "topics": [
    "LES & multiphase CFD"

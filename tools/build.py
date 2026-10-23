@@ -160,7 +160,7 @@ def footer(r):
       <div>
         <a class="brand" href="{r}index.html">{logo("f")}<span><span class="wm">FROST</span><span class="sub">{E(C.SITE['full'])}</span></span></a>
         <p style="margin-top:18px;max-width:380px">An AI-ready, governed community dataset of aircraft icing, built from two decades of icing-tunnel experiments and flight-test campaigns linked to validated simulation.</p>
-        <p style="margin:0">Iowa State University · Georgia Institute of Technology</p>
+        <p style="margin:0">Iowa State University · Georgia Institute of Technology · Stanford University</p>
       </div>
       <div><h4>Explore</h4><ul>
         <li><a href="{r}datasets.html">Datasets</a></li><li><a href="{r}record-s1223.html">Example record</a></li>
@@ -553,7 +553,7 @@ bench  = frost.<span class="fn">bench</span>(<span class="st">"T2-piv-shadow"</s
 
 <section class="section">
   <div class="container">
-    <div class="section-head"><span class="eyebrow">Team</span><h2>Four PIs, one record at a time</h2>
+    <div class="section-head"><span class="eyebrow">Team</span><h2>Five PIs, one record at a time</h2>
       <p>Experiments, high-fidelity simulation, AI agents, and generative AI, with overlapping expertise that ties the layers together.</p></div>
     <div class="team">{team}</div>
   </div>
@@ -939,12 +939,12 @@ def build_software():
 
 # ------------------------------------------------------------------ publications
 def build_pubs():
-    names = {"Hu": "Hui Hu", "Jain": "Suhas S. Jain", "He": "Ping He", "Gao": "Han Gao"}
+    names = {"Hu": "Hui Hu", "Jain": "Suhas S. Jain", "Moin": "Parviz Moin", "He": "Ping He", "Gao": "Han Gao"}
     pcol = {p["id"]: LAYER_HEX[p["layer"]] for p in C.PEOPLE}
     cnt_pi = Counter(x for p in PUBS for x in p["pis"])
     cnt_t = Counter(x for p in PUBS for x in p["topics"])
     cnt_ty = Counter(p["type"] for p in PUBS)
-    filters = (facet("pi", "PI", ["Hu", "Jain", "He", "Gao"], cnt_pi, names, {k: pcol[k.lower()] for k in names})
+    filters = (facet("pi", "PI", ["Hu", "Jain", "Moin", "He", "Gao"], cnt_pi, names, {k: pcol[k.lower()] for k in names})
                + facet("topic", "Topic", [t for t, _ in cnt_t.most_common() if t != "Other"] + ["Other"], cnt_t)
                + facet("type", "Type", ["Journal", "Conference", "Preprint"], cnt_ty))
     by_year = OrderedDict()
@@ -962,7 +962,7 @@ def build_pubs():
   <div class="ac">{doi}<button class="copy" data-copy="{E(c)}">Copy citation</button></div></div>"""
         groups += f'<div data-group><div class="pub-year">{y}<span data-group-count>{len(ps)} papers</span></div>{items}</div>'
     body = page_hero("Publications", "The papers behind the archive",
-                     f"{len(PUBS)} journal articles, conference papers, and preprints by the four PIs on icing physics, measurement, simulation, and AI. Each FROST record links back to the papers that report it.",
+                     f"{len(PUBS)} journal articles, conference papers, and preprints by the PIs on icing physics, measurement, simulation, and AI. Each FROST record links back to the papers that report it.",
                      bg="hs-airfoil") + f"""
 <section class="section" style="padding-top:56px" data-filter-root>
   <div class="container catalog">
@@ -997,7 +997,7 @@ def build_team():
     <div style="font-size:14px;color:var(--ink-2)"><b style="color:var(--ink)">Leads in FROST</b><ul style="margin:6px 0 14px;padding-left:18px">{leads}</ul></div>
     <div style="display:flex;flex-wrap:wrap;gap:8px">{links}</div></div></article>"""
     body = page_hero("Team", "Experiments, simulation, agents, and generative AI",
-                     "Four PIs at Iowa State University and Georgia Tech, each leading one layer of FROST, with overlapping expertise that ties the aims together.",
+                     "Five PIs at Iowa State University, Georgia Tech, and Stanford University, with overlapping expertise that ties the aims together.",
                      bg="irt-facility") + f"""
 <section class="section"><div class="container" style="display:flex;flex-direction:column;gap:22px">{cards}</div></section>
 <section class="section section-ice">
@@ -1005,11 +1005,12 @@ def build_team():
     <div class="section-head"><span class="eyebrow">Where the expertise overlaps</span><h2>A team that already works together</h2></div>
     <div class="grid-3">
       <div class="card"><h3>Hu × Jain</h3><p>Scanned ice and IRT data validate LES; a neural operator for icing water films (JFM, 2026).</p></div>
+      <div class="card"><h3>Jain × Moin</h3><p>Wall-modeled LES of iced airfoils and wings, droplet impingement, and conjugate heat transfer on laser-scanned IRT ice, coauthored by Jain and Moin.</p></div>
       <div class="card"><h3>Jain × He</h3><p>LES and DAFoam simulations; agents set up validated cases.</p></div>
       <div class="card"><h3>He × Gao</h3><p>PhysMiner agents, co-developed; AI-driven design.</p></div>
       <div class="card"><h3>Hu × He</h3><p>A shared NSF icing award and machine-learning studies of wind-driven runback.</p></div>
       <div class="card"><h3>Gao × Hu</h3><p>A shared study of the icing-induced penalty on the S1223 UAV wing, and the NASA IRT 401–405 ice-accretion model.</p></div>
-      <div class="card"><h3>Governance</h3><p>A Steering Committee of the four PIs plus external members from aircraft icing, UAS operations, certification, and AI for science; a Data Curation Board reviews releases.</p></div>
+      <div class="card"><h3>Governance</h3><p>A Steering Committee of the PIs plus external members from aircraft icing, UAS operations, certification, and AI for science; a Data Curation Board reviews releases.</p></div>
     </div>
   </div>
 </section>
@@ -1023,7 +1024,7 @@ def build_team():
     </div>
   </div>
 </section>"""
-    page("team.html", "team.html", "Team · FROST", "The four PIs behind FROST.", body)
+    page("team.html", "team.html", "Team · FROST", "The PIs behind FROST.", body)
 
 
 # ------------------------------------------------------------------ access

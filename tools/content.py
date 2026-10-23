@@ -55,6 +55,16 @@ PEOPLE = [
         "leads": ["Aim 1.3 Validated-simulation completion and augmentation", "Discovery campaigns Q1–Q2"],
     },
     {
+        "id": "moin", "img": "wmles-stall", "name": "Parviz Moin", "role": "Co-PI", "inst": "Stanford University",
+        "layer": "cfd", "focus": "High-fidelity simulation · validation",
+        "title": "Franklin P. and Caroline M. Johnson Professor in the School of Engineering; Founding Director, Center for Turbulence Research",
+        "lab": ("Center for Turbulence Research", "https://ctr.stanford.edu/"),
+        "links": [("CTR", "https://ctr.stanford.edu/"),
+                  ("Stanford profile", "https://profiles.stanford.edu/parviz-moin")],
+        "bio": "Pioneered direct and large-eddy simulation for studying turbulence physics, control, and modeling; his current interests include large-eddy simulation for aerospace applications and aircraft icing. Member of the National Academy of Sciences, the National Academy of Engineering, and the American Academy of Arts and Sciences.",
+        "leads": ["High-fidelity simulations of iced aircraft (with Jain, Aim 1.3)", "Validation of the computations", "Contributing simulation data to FROST"],
+    },
+    {
         "id": "he", "img": "physminer-vortices", "name": "Ping He", "role": "Co-PI", "inst": "Iowa State University",
         "layer": "app", "focus": "Optimization, planning & agents",
         "title": "Assistant Professor of Aerospace Engineering",
@@ -93,7 +103,7 @@ COLLECTIONS = [
      "content": "Fixed-wing and quadcopter UAV icing flights: GPS, airspeed, power, vibration, onboard video, and post-flight 3D ice scans.",
      "scale": ">100 missions, >40 in-flight icing events",
      "today": "Partly online", "frost": "v1.0"},
-    {"id": "les", "name": "Iced-aircraft LES", "holder": "Jain", "layer": "cfd", "img": "wmles-rime",
+    {"id": "les", "name": "Iced-aircraft LES", "holder": "Jain, Moin", "layer": "cfd", "img": "wmles-rime",
      "content": "Wall-modeled LES of NACA 23012 with five laser-scanned IRT ice shapes; CRM65 swept wing with real and artificial ice; droplet impingement; conjugate heat transfer.",
      "scale": "1.2–170 M cells; up to 1.2 B (swept wing); 170 M particles",
      "today": "Papers only", "frost": "v1.0 (validated completions)"},
@@ -270,7 +280,7 @@ DATASETS = [
     },
     {
         "id": "wmles-naca23012", "title": "Wall-modeled LES of NACA 23012 with laser-scanned ice",
-        "collection": "les", "holder": "Jain", "origin": "simulation", "release": "v1.0",
+        "collection": "les", "holder": "Jain, Moin", "origin": "simulation", "release": "v1.0",
         "geometry": "Airfoil & wing", "regime": ["rime", "glaze", "horn"],
         "modalities": ["LES fields", "Loads", "Surface pressure"],
         "summary": "Wall-modeled LES of an airfoil carrying five laser-scanned IRT ice shapes, validated against tunnel loads and surface pressure.",
@@ -280,7 +290,7 @@ DATASETS = [
     },
     {
         "id": "wmles-roughness", "title": "Rough-wall modeling for LES of rime-iced airfoils",
-        "collection": "les", "holder": "Jain", "origin": "simulation", "release": "v1.0",
+        "collection": "les", "holder": "Jain, Moin", "origin": "simulation", "release": "v1.0",
         "geometry": "Airfoil & wing", "regime": ["rime"],
         "modalities": ["LES fields", "Loads"],
         "summary": "A rough-wall model for LES over scanned rime roughness that removes most of the lift and drag error of smooth-wall simulation.",
@@ -290,7 +300,7 @@ DATASETS = [
     },
     {
         "id": "crm65", "title": "CRM65 swept wing with real and artificial ice (LES)",
-        "collection": "les", "holder": "Jain", "origin": "simulation", "release": "v1.0",
+        "collection": "les", "holder": "Jain, Moin", "origin": "simulation", "release": "v1.0",
         "geometry": "Airfoil & wing", "regime": ["glaze"],
         "modalities": ["LES fields", "Loads"],
         "summary": "LES of a swept wing with real scanned ice and with artificial ice shapes, showing where artificial shapes mislead drag predictions.",
@@ -302,7 +312,7 @@ DATASETS = [
     },
     {
         "id": "cht-les", "title": "Conjugate heat transfer over scanned ice roughness (LES)",
-        "collection": "les", "holder": "Jain", "origin": "simulation", "release": "v1.0",
+        "collection": "les", "holder": "Jain, Moin", "origin": "simulation", "release": "v1.0",
         "geometry": "Airfoil & wing", "regime": ["rime"],
         "modalities": ["LES fields", "Surface temperature"],
         "summary": "LES of heat transfer in boundary layers over laser-scanned ice roughness, coupled to the solid, and compared with IR thermography.",
@@ -312,7 +322,7 @@ DATASETS = [
     },
     {
         "id": "droplet-impingement", "title": "Droplet impingement on clean and scanned ice (LES)",
-        "collection": "les", "holder": "Jain", "origin": "simulation", "release": "v1.0",
+        "collection": "les", "holder": "Jain, Moin", "origin": "simulation", "release": "v1.0",
         "geometry": "Airfoil & wing", "regime": ["SLD"],
         "modalities": ["LES fields", "Lagrangian particles"],
         "summary": "Lagrangian-particle LES of droplet impingement, including supercooled large droplets, on clean and laser-scanned iced surfaces: collection efficiency on rough ice, which tunnels cannot measure directly.",

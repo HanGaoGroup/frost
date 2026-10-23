@@ -1,4 +1,4 @@
-"""Extract the four PIs' papers from the proposal bibliography into data/publications.json.
+"""Extract the PIs' papers from the proposal bibliography into data/publications.json.
 
 Usage: python3 tools/pubs.py [path/to/references.bib]
 Only entries with a venue or a DOI are kept (unpublished manuscripts are skipped).
@@ -18,6 +18,7 @@ DEFAULT_BIB = os.path.join(
 PIS = {
     "Hu": re.compile(r"\bHu,\s*Hui\b|\bHu,\s*H\.(?!\s*[a-z])"),
     "Jain": re.compile(r"\bJain,\s*S(uhas|\.)"),
+    "Moin": re.compile(r"\bMoin,\s*P(arviz|\.|\b)"),
     "He": re.compile(r"\bHe,\s*P(ing|\.)"),
     "Gao": re.compile(r"\bGao,\s*Han\b|\bGao,\s*H\.(?!\s*[a-z])"),
 }
